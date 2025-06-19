@@ -1,7 +1,7 @@
 {
     "name": "Priyadharshini M",
 
-    "profilePictureUrl": "images/pictures/profile-picture.jpg",
+    "profilePictureUrl": "public/images/pictures/profile-picture.jpg",
     "resumePdfUrl": "",
 
     "statusCircleVisible": true,
