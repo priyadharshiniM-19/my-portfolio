@@ -97,19 +97,19 @@
           "faIcon": "",
           "faIconColors": { "bg": "", "fill": "" },
           "locales": {
-            "en": {
-              "text": "<img src='react-portfolio-template/public/data/section/images/pictures/code-snippet.jpg' alt='Code snippet about Priya' class='code-image' style='max-width: 100%; border-radius: 8px;'>"
-            },
-            "es": {
-              "text": "<img src='images/pictures/code-snippet.jpg' alt='Fragmento de código sobre Priya' class='code-image' style='max-width: 100%; border-radius: 8px;'>"
-            },
-            "fr": {
-              "text": "<img src='images/pictures/code-snippet.jpg' alt='Extrait de code sur Priya' class='code-image' style='max-width: 100%; border-radius: 8px;'>"
-            },
-            "ko": {
-              "text": "<img src='images/pictures/code-snippet.jpg' alt='프리야에 대한 코드 스니펫' class='code-image' style='max-width: 100%; border-radius: 8px;'>"
-            }
-          }
+  "en": {
+    "text": "<div style='text-align:center;'><img src='https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-6d88-620a-b548-a0bae8bd9f88/raw?se=2025-06-19T13%3A28%3A23Z&sp=r&sv=2024-08-04&sr=b&scid=b6f6d90e-332f-5a25-8577-d7f2331499ef&skoid=f71d6506-3cac-498e-b62a-67f9228033a9&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-19T11%3A29%3A58Z&ske=2025-06-20T11%3A29%3A58Z&sks=b&skv=2024-08-04&sig=%2B/rE3GHog0uHuEGJ5LdonZiuKhBWejVO%2B0P/OBoR/jw%3D' alt='Code snippet' class='code-image' style='max-width:25%; height:auto; border-radius:8px; display:block; margin:0 auto;'></div>"
+  },
+  "es": {
+    "text": "<div style='text-align:center;'><img src='https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-6d88-620a-b548-a0bae8bd9f88/raw?se=2025-06-19T13%3A28%3A23Z&sp=r&sv=2024-08-04&sr=b&scid=b6f6d90e-332f-5a25-8577-d7f2331499ef&skoid=f71d6506-3cac-498e-b62a-67f9228033a9&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-19T11%3A29%3A58Z&ske=2025-06-20T11%3A29%3A58Z&sks=b&skv=2024-08-04&sig=%2B/rE3GHog0uHuEGJ5LdonZiuKhBWejVO%2B0P/OBoR/jw%3D' alt='Fragmento de código' class='code-image' style='max-width:25%; height:auto; border-radius:8px; display:block; margin:0 auto;'></div>"
+  },
+  "fr": {
+    "text": "<div style='text-align:center;'><img src='https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-6d88-620a-b548-a0bae8bd9f88/raw?se=2025-06-19T13%3A28%3A23Z&sp=r&sv=2024-08-04&sr=b&scid=b6f6d90e-332f-5a25-8577-d7f2331499ef&skoid=f71d6506-3cac-498e-b62a-67f9228033a9&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-19T11%3A29%3A58Z&ske=2025-06-20T11%3A29%3A58Z&sks=b&skv=2024-08-04&sig=%2B/rE3GHog0uHuEGJ5LdonZiuKhBWejVO%2B0P/OBoR/jw%3D' alt='Extrait de code' class='code-image' style='max-width:25%; height:auto; border-radius:8px; display:block; margin:0 auto;'></div>"
+  },
+  "ko": {
+    "text": "<div style='text-align:center;'><img src='https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-6d88-620a-b548-a0bae8bd9f88/raw?se=2025-06-19T13%3A28%3A23Z&sp=r&sv=2024-08-04&sr=b&scid=b6f6d90e-332f-5a25-8577-d7f2331499ef&skoid=f71d6506-3cac-498e-b62a-67f9228033a9&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-19T11%3A29%3A58Z&ske=2025-06-20T11%3A29%3A58Z&sks=b&skv=2024-08-04&sig=%2B/rE3GHog0uHuEGJ5LdonZiuKhBWejVO%2B0P/OBoR/jw%3D' alt='코드 스니펫' class='code-image' style='max-width:25%; height:auto; border-radius:8px; display:block; margin:0 auto;'></div>"
+  }
+}
         }
       ]
     },
