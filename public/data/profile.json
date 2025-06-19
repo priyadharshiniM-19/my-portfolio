@@ -1,7 +1,7 @@
 {
     "name": "Priyadharshini M",
 
-    "profilePictureUrl": "public/images/pictures/profile-picture1.jpg",
+    "profilePictureUrl": "public/images/pictures/code-snippet.png",
     "resumePdfUrl": "",
 
     "statusCircleVisible": true,
@@ -14,28 +14,24 @@
             "localized_name_stylized": " [[Priyadharshini {{M}}]]",
             "status_message_available_for_freelance": "Available for freelance!",
             "roles": [
-                "Backend Developer",
                 "Frontend Developer",
-                "DevOps Engineer",
-                "UX Designer"
+                "Database management"
             ]
         },
         "es": {
             "status_message_available_for_freelance": "¡Disponible para freelance!",
             "roles": [
-                "Desarrollador Backend",
+                
                 "Desarrollador Frontend",
-                "Ingeniero DevOps",
-                "Diseñador UX"
+                "Database"
+                
             ]
         },
         "fr": {
             "status_message_available_for_freelance": "Disponible pour freelance !",
             "roles": [
-                "Développeur Backend",
                 "Développeur Frontend",
-                "Ingénieur DevOps",
-                "Designer UX"
+                "database"
             ]
         },
         "ko": {
@@ -44,9 +40,7 @@
             "status_message_available_for_freelance": "프리랜스 가능합니다!",
             "roles": [
                 "백엔드 개발자",
-                "프론트엔드 개발자",
-                "데브옵스 엔지니어",
-                "UX 디자이너"
+                "database"
             ]
         }
     }
