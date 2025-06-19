@@ -1,58 +1,73 @@
 /**
- * @author Ryan Balieiro
+ * @author Priyadharshini M
  * @description Mixin to build theme color scheme variables.
  */
-
+// theme-variables-builder.scss
 $theme-contrast-steps: (1%, 2%, 3%, 4%, 5%, 6%, 7%, 8%, 9%, 10%, 12.5%, 15%, 17.5%, 20%, 25%, 30%);
 
 @mixin build-theme(
     $isDarkMode,
-
-    $theme-primary,
-    $theme-secondary,
-    $theme-dark,
-    $theme-danger,
-    $theme-muted,
-
-    $theme-background,
-    $theme-background-contrast,
-    $theme-background-contrast-darken,
-    $theme-texts,
-    $theme-texts-inv,
-
-    $theme-mobile-nav-background,
-    $theme-mobile-nav,
-    $theme-mobile-nav-border,
-    $theme-mobile-nav-hover-background,
-    $theme-mobile-nav-hover,
-    $theme-mobile-nav-selected-background,
-    $theme-mobile-nav-selected,
-    $theme-mobile-nav-selected-border,
-
-    $theme-section-background,
-    $theme-card-background,
-    $theme-pop-ups-background,
-    $theme-boards-background,
-    $theme-info-badge-background,
-    $theme-info-badge,
-    $theme-empty,
-
-    $theme-standard-borders,
-    $theme-scrollbar-track,
-    $theme-scrollbar-thumb
+    
+    // Core Colors
+    $theme-primary: #f990be,    // Neon Pink
+    $theme-secondary: #372a4b,  // Bold Purple
+    $theme-dark: #0F0E17,       // Jet Black
+    $theme-danger: #7f081a,     // Vibrant Error
+    $theme-muted: #5A5773,      // Desaturated Purple
+    
+    // Background/Text
+    $theme-background: #01678f,
+    $theme-background-contrast: #07c9f9, // Code Block BG
+    $theme-background-contrast-darken: #fafafd,
+    $theme-texts: #FDFDFD,
+    $theme-texts-inv: #06b3ed,
+    
+    // Mobile Nav
+    $theme-mobile-nav-background: #1A1A2E,
+    $theme-mobile-nav: #FDFDFD,
+    $theme-mobile-nav-border: #2E2E4A,
+    $theme-mobile-nav-hover-background: #f9b3df, // Pulsing Pink
+    $theme-mobile-nav-hover: #FDFDFD,
+    $theme-mobile-nav-selected-background: #8338EC,
+    $theme-mobile-nav-selected: #FDFDFD,
+    $theme-mobile-nav-selected-border: #9D4DFF,
+    
+    // UI Elements
+    $theme-section-background: #1A1A2E,
+    $theme-card-background: #1A1A2E,
+    $theme-pop-ups-background: #121221,
+    $theme-boards-background: #0F0E17,
+    $theme-info-badge-background: #FFBE0B, // Highlight Yellow
+    $theme-info-badge: #0F0E17,
+    $theme-empty: #2E2E4A,
+    
+    // Borders & Scroll
+    $theme-standard-borders: #2E2E4A,
+    $theme-scrollbar-track: #1A1A2E,
+    $theme-scrollbar-thumb: #febde6      // Pulsing Pink
 ) {
+    // Animation Variables
+    --theme-pulse-animation: pulse 2s infinite;
+    --theme-hover-glow: 0 0 8px #{rgba($theme-primary, 0.6)};
+    --theme-text-glow: 0 0 4px #{rgba($theme-primary, 0.4)};
+    
+    // Core Colors
     --theme-primary: #{$theme-primary};
     --theme-secondary: #{$theme-secondary};
     --theme-dark: #{$theme-dark};
     --theme-danger: #{$theme-danger};
     --theme-muted: #{$theme-muted};
+    --theme-highlight: #FFBE0B;
+    --theme-scroll-fx: #fca6dc;
 
+    // Background/Text
     --theme-background: #{$theme-background};
     --theme-background-contrast: #{$theme-background-contrast};
     --theme-background-contrast-darken: #{$theme-background-contrast-darken};
     --theme-texts: #{$theme-texts};
     --theme-texts-inv: #{$theme-texts-inv};
 
+    // Mobile Nav
     --theme-mobile-nav-background: #{$theme-mobile-nav-background};
     --theme-mobile-nav: #{$theme-mobile-nav};
     --theme-mobile-nav-border: #{$theme-mobile-nav-border};
@@ -62,63 +77,58 @@ $theme-contrast-steps: (1%, 2%, 3%, 4%, 5%, 6%, 7%, 8%, 9%, 10%, 12.5%, 15%, 17.
     --theme-mobile-nav-selected: #{$theme-mobile-nav-selected};
     --theme-mobile-nav-selected-border: #{$theme-mobile-nav-selected-border};
 
+    // UI Elements
     --theme-section-background: #{$theme-section-background};
     --theme-card-background: #{$theme-card-background};
     --theme-card-background-opacity: #{rgba($theme-card-background, 0.8)};
-
-    --theme-standard-borders: #{$theme-standard-borders};
     --theme-pop-ups-background: #{$theme-pop-ups-background};
     --theme-boards-background: #{$theme-boards-background};
     --theme-info-badge-background: #{$theme-info-badge-background};
     --theme-info-badge: #{$theme-info-badge};
     --theme-empty: #{$theme-empty};
 
+    // Borders & Scroll
+    --theme-standard-borders: #{$theme-standard-borders};
     --theme-scrollbar-track: #{$theme-scrollbar-track};
     --theme-scrollbar-thumb: #{$theme-scrollbar-thumb};
 
+    // Dark/Light Mode Logic
     @if($isDarkMode) {
+        // Links
         --theme-links: #{lighten($theme-primary, 5%)};
         --theme-links-hover: #{lighten($theme-primary, 10%)};
-
+        
+        // Backgrounds
         --theme-card-background-accent: #{lighten($theme-card-background, 2%)};
         --theme-boards-background-accent: #{darken($theme-boards-background, 2%)};
         --theme-boards-background-accent-inv: #{lighten($theme-boards-background, 1%)};
         --theme-section-background-accent: #{lighten($theme-section-background, 3%)};
         --theme-section-background-accent-inv: #{darken($theme-section-background, 3%)};
-
+        
+        // Borders
         --theme-standard-borders-accent: #{lighten($theme-standard-borders, 3%)};
         --theme-standard-borders-accent-2: #{lighten($theme-standard-borders, 5%)};
-
+        
+        // Special Effects
         --theme-timeline-line-color: #{lighten($theme-boards-background, 2%)};
         --theme-timeline-line-color-accent: #{darken($theme-boards-background, 5%)};
-
         --theme-opacity-border: #{rgba($theme-secondary, 0.15)};
         --theme-opacity-border-light: #{rgba($theme-secondary, 0.05)};
         --theme-opacity-border-accent: #{rgba($theme-secondary, 0.35)};
         --theme-invert-filter: 1;
-    }
+    } 
     @else {
+        // Light mode variants
         --theme-links: #{darken($theme-primary, 5%)};
         --theme-links-hover: #{darken($theme-primary, 10%)};
-
         --theme-card-background-accent: #{darken($theme-card-background, 2%)};
         --theme-boards-background-accent: #{darken($theme-boards-background, 2%)};
-        --theme-boards-background-accent-inv: #{lighten($theme-boards-background, 0%)};
         --theme-section-background-accent: #{darken($theme-section-background, 5%)};
-        --theme-section-background-accent-inv: #{lighten($theme-section-background, 5%)};
-
-        --theme-standard-borders-accent: #{$theme-section-background};
-        --theme-standard-borders-accent-2: #{darken($theme-standard-borders, 1%)};
-
-        --theme-timeline-line-color: #{darken($theme-boards-background, 2%)};
-        --theme-timeline-line-color-accent: #{lighten($theme-boards-background, 1%)};
-
-        --theme-opacity-border: #{rgba(black, 0.15)};
-        --theme-opacity-border-light: #{rgba(black, 0.05)};
-        --theme-opacity-border-accent: #{rgba(black, 0.3)};
+        --theme-standard-borders-accent: #{darken($theme-standard-borders, 5%)};
         --theme-invert-filter: 0;
     }
 
+    // Contrast Steps
     @for $i from 1 through 16 {
         --theme-standard-borders-#{$i}: #{rgba($theme-standard-borders, calc($i/16))};
 
@@ -136,6 +146,7 @@ $theme-contrast-steps: (1%, 2%, 3%, 4%, 5%, 6%, 7%, 8%, 9%, 10%, 12.5%, 15%, 17.
         }
     }
 
+    // Text Variants
     @if($isDarkMode) {
         --theme-texts-light: var(--theme-texts-5);
         --theme-texts-light-2: var(--theme-secondary);
@@ -147,5 +158,46 @@ $theme-contrast-steps: (1%, 2%, 3%, 4%, 5%, 6%, 7%, 8%, 9%, 10%, 12.5%, 15%, 17.
         --theme-texts-light-2: var(--theme-secondary);
         --theme-texts-light-3: #{lighten($theme-secondary, 5%)};
         --theme-texts-light-4: #{lighten($theme-secondary, 10%)};
+    }
+
+    // Animation Keyframes
+    @keyframes pulse {
+        0% { opacity: 0.8; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.02); box-shadow: 0 0 12px var(--theme-scroll-fx); }
+        100% { opacity: 0.8; transform: scale(1); }
+    }
+
+    @keyframes text-glow {
+        0%, 100% { text-shadow: var(--theme-text-glow); }
+        50% { text-shadow: 0 0 8px rgba(255, 0, 160, 0.7); }
+    }
+}
+
+// Global Animation Classes
+.theme-animate {
+    &--pulse {
+        animation: var(--theme-pulse-animation);
+        &:hover {
+            animation: pulse 1s infinite, hover-glow 0.5s alternate infinite;
+        }
+    }
+
+    &--hover-glow {
+        transition: box-shadow 0.3s ease;
+        &:hover {
+            box-shadow: var(--theme-hover-glow);
+        }
+    }
+
+    &--text-glow {
+        animation: text-glow 3s ease-in-out infinite;
+    }
+}
+
+// Reduced Motion Support
+@media (prefers-reduced-motion) {
+    [class*="theme-animate"] {
+        animation: none !important;
+        transition: none !important;
     }
 }

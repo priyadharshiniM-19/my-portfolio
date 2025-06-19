@@ -1,77 +1,154 @@
 /**
- * @author Ryan Balieiro
- * @description Dark theme colors.
+ * @author Priyadharshini M
+ * @description Dark theme colors (Indigo/Pink/Slate variant).
  */
 
-@import "theme-variables-builder";
+// dark.scss – Optimized for theme-variables-builder
+// dark.scss - VS Code Dark Theme Inspired Syntax Highlighting
+// dark.scss - VS Code Dark Theme Inspired Syntax Highlighting
+@use "./theme-variables-builder" as builder;
 
-$primary: #9dff8e;
-$secondary: #a4afb5;
-$dark: darken(#181818, 1%);
-$danger: #fdd2d2;
-$muted: #6c757d;
+// ========== COLOR DEFINITIONS ==========
+// Core Syntax Colors
+$theme-primary: #99c7ed;       // Blue for keywords/declarations
+$theme-secondary: #CE9178;     // Orange for strings
+$theme-dark: #1E1E1E;          // Editor background
+$theme-danger: #F44747;        // Red for errors
+$theme-muted: #6A9955;         // Green for comments
+$theme-function: #DCDCAA;      // Functions
+$theme-number: #B5CEA8;        // Numbers
+$theme-parameter: #9CDCFE;     // Parameters
+$theme-type: #4EC9B0;          // Types/classes
 
-$base-bg: #0c0c0c;
-$base-bg-light: #161616;
-$base-bg-dark: #090909;
+// Backgrounds
+$theme-background: #025170;    // Main background
+$theme-background-contrast: #252526;  // Secondary background
+$theme-background-contrast-darken: #2D2D2D; // Accent background
+$theme-texts: #D4D4D4;         // Primary text
+$theme-texts-inv: #FFFFFF;     // Bright text
 
-$texts: #EEEEEE;
-$texts-inverted: #111111;
+// UI Elements
+$theme-section-background: #252526;
+$theme-card-background: #2D2D2D;
+$theme-pop-ups-background: #1E1E1E;
+$theme-boards-background: #252526;
+$theme-info-badge-background: #0E639C; // Blue badge
+$theme-info-badge: #FFFFFF;
+$theme-empty: #3A3D41;         // Empty state color
 
-$base-container-bg: #181818;
-$base-container-bg-accent: #1f1f1f;
-$base-popover-bg: #0e0e0e;
-$base-boards: lighten($base-container-bg, 3%);
-$base-info-badges: lighten($dark, 3%);
-$empty: darken($base-container-bg, 3%);
+// Borders & Scroll
+$theme-standard-borders: #3A3D41;
+$theme-scrollbar-track: #252526;
+$theme-scrollbar-thumb: #3A3D41;
 
-$borders: #1D1D1D;
-$scrollbar-track: #101010;
-$scrollbar-thumb: #32343a;
-
+// ========== THEME APPLICATION ==========
 :root {
-    @include build-theme(
-        // Theme Config...
-        /** DARK MODE: **/                  true,
+  @include builder.build-theme(
+    $isDarkMode: true,
+    
+    // Core Colors
+    $theme-primary: $theme-primary,
+    $theme-secondary: $theme-secondary,
+    $theme-dark: $theme-dark,
+    $theme-danger: $theme-danger,
+    $theme-muted: $theme-muted,
+    
+    // Background/Text
+    $theme-background: $theme-background,
+    $theme-background-contrast: $theme-background-contrast,
+    $theme-background-contrast-darken: $theme-background-contrast-darken,
+    $theme-texts: $theme-texts,
+    $theme-texts-inv: $theme-texts-inv,
+    
+    // Mobile Nav (keeping minimal for code-focused theme)
+    $theme-mobile-nav-background: $theme-background-contrast,
+    $theme-mobile-nav: $theme-texts,
+    $theme-mobile-nav-border: $theme-standard-borders,
+    $theme-mobile-nav-hover-background: lighten($theme-background-contrast, 5%),
+    $theme-mobile-nav-hover: $theme-primary,
+    $theme-mobile-nav-selected-background: $theme-primary,
+    $theme-mobile-nav-selected: $theme-texts-inv,
+    $theme-mobile-nav-selected-border: $theme-primary,
+    
+    // UI Elements
+    $theme-section-background: $theme-section-background,
+    $theme-card-background: $theme-card-background,
+    $theme-pop-ups-background: $theme-pop-ups-background,
+    $theme-boards-background: $theme-boards-background,
+    $theme-info-badge-background: $theme-info-badge-background,
+    $theme-info-badge: $theme-info-badge,
+    $theme-empty: $theme-empty,
+    
+    // Borders & Scroll
+    $theme-standard-borders: $theme-standard-borders,
+    $theme-scrollbar-track: $theme-scrollbar-track,
+    $theme-scrollbar-thumb: $theme-scrollbar-thumb
+  );
 
-        // Base Colors...
-        /** PRIMARY: **/                    $primary,
-        /** SECONDARY: **/                  $secondary,
-        /** DARK: **/                       $dark,
-        /** DANGER: **/                     $danger,
-        /** MUTED: **/                      $muted,
+  // Additional Syntax Highlighting Variables
+  --theme-code-function: #{$theme-function};
+  --theme-code-number: #{$theme-number};
+  --theme-code-keyword: #{$theme-primary};
+  --theme-code-string: #{$theme-secondary};
+  --theme-code-type: #{$theme-type};
+  --theme-code-parameter: #{$theme-parameter};
+  --theme-code-comment: #{$theme-muted};
+  --theme-code-punctuation: #{$theme-texts};
+}
 
-        // Main Layout Colors...
-        /** BG: **/                         $base-bg,
-        /** BG CONTRAST: **/                $base-bg-light,
-        /** BG CONTRAST DARKEN:**/          $base-bg-dark,
-        /** TEXTS: **/                      $texts,
-        /** TEXTS (INVERTED): **/           $texts-inverted,
+// ========== CODE BLOCK STYLES ==========
+.code-theme {
+  background-color: var(--theme-background);
+  color: var(--theme-texts);
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 16px;
+  border-radius: 4px;
+  overflow: auto;
+  
+  // Syntax Highlighting Classes
+  .keyword { color: var(--theme-code-keyword); font-weight: bold; }
+  .string { color: var(--theme-code-string); }
+  .function { color: var(--theme-code-function); }
+  .number { color: var(--theme-code-number); }
+  .type { color: var(--theme-code-type); }
+  .parameter { color: var(--theme-code-parameter); }
+  .comment { color: var(--theme-code-comment); font-style: italic; }
+  .punctuation { color: var(--theme-code-punctuation); }
+  .property { color: var(--theme-texts); }
+  
+  // Special cases
+  .operator { color: var(--theme-texts); }
+  .bracket { color: var(--theme-primary); }
+}
 
-        // Nav
-        /** NAV MOBILE BG: **/              #131313,
-        /** NAV MOBILE: **/                 $texts,
-        /** NAV MOBILE BORDER: **/          $borders,
+// ========== ANIMATIONS ==========
+.theme-animate {
+  &--pulse {
+    animation: var(--theme-pulse-animation);
+    &:hover {
+      animation: 
+        var(--theme-pulse-animation),
+        var(--theme-hover-glow-animation);
+    }
+  }
 
-        /** NAV MOBILE HOVER BG: **/        #131313,
-        /** NAV MOBILE HOVER: **/           $primary,
+  &--hover-glow:hover {
+    box-shadow: 0 0 8px rgba($theme-primary, 0.4);
+  }
 
-        /** NAV MOBILE SELECTED BG: **/     $borders,
-        /** NAV MOBILE SELECTED: **/        $primary,
-        /** NAV MOBILE SELECTED BORDER: **/ $primary,
+  &--text-glow {
+    text-shadow: 0 0 4px rgba($theme-primary, 0.4);
+  }
+}
 
-        // Main Layout Elements...
-        /** SECTION BG: **/                 $base-container-bg,
-        /** CARD BG: **/                    $base-container-bg,
-        /** POPUPS BG: **/                  $base-popover-bg,
-        /** BOARDS: **/                     $base-boards,
-        /** INFO BADGE BG: **/              $base-info-badges,
-        /** INFO BADGE **/                  $texts,
-        /** EMPTY **/                       $empty,
-
-        // Other Colors...
-        /** DEFAULT BORDERS: **/            $borders,
-        /** SCROLLBAR TRACK: **/            $scrollbar-track,
-        /** SCROLLBAR THUMB: **/            $scrollbar-thumb,
-    );
+// Reduced Motion Support
+@media (prefers-reduced-motion) {
+  .theme-animate {
+    animation: none !important;
+    &--hover-glow:hover {
+      box-shadow: none;
+    }
+  }
 }

@@ -38,233 +38,143 @@
                 "order_items_sort": "desc"
             },
             "items": [
+               {
+  "id": 1,
+  "img": "https://tse2.mm.bing.net/th?id=OIP._aIkK7C6nkzNW9PCN5DNMQHaEO&pid=Api&P=0&h=180",
+  "faIcon": "fa-solid fa-graduation-cap",
+  "faIconColors": { "bg": "#3b82f6", "fill": "#ffffff" },
+  "dateStart": { "year": 2022, "month": 8 },
+  "dateEnd": { "year": 2026, "month": 5 },
+  "locales": {
+    "en": {
+      "title": "B.E. in Computer Science and Engineering",
+      "province": "India, Tamil Nadu",
+      "country": "India",
+      "institution": "Velammal Institute of Technology",
+      "text": "Pursuing a Bachelor's degree in [[Computer Science and Engineering]] with interests in Web Development, Database Systems, and Artificial Intelligence. Gained hands-on experience in full-stack development, Java, SQL, and Python through projects and coursework.",
+      "list": [],
+      "tags": ["9.1 CGPA","final year"]
+    },
+    "es": {
+      "title": "Licenciatura en Ingeniería Informática",
+      "province": "India, Tamil Nadu",
+      "country": "India",
+      "institution": "Instituto de Tecnología Velammal",
+      "text": "Actualmente cursando una licenciatura en [[Ingeniería Informática]] con enfoque en desarrollo web, bases de datos e inteligencia artificial. Experiencia práctica adquirida a través de proyectos y cursos.",
+      "list": [],
+      "tags": ["9.1 CGPA","final year"]
+    },
+    "fr": {
+      "title": "Licence en Informatique",
+      "province": "India, Tamil Nadu",
+      "country": "Inde",
+      "institution": "Institut de Technologie Velammal",
+      "text": "En cours d'obtention d'une licence en [[Informatique]] avec des intérêts pour le développement web, les bases de données et l'intelligence artificielle. Expérience pratique obtenue via des projets académiques.",
+      "list": [],
+      "tags": ["9.1 CGPA","final year"]
+    },
+    "ko": {
+      "title": "컴퓨터공학 학사",
+      "province": "타밀나두 주 포네리",
+      "country": "인도",
+      "institution": "벨라말 공과대학교",
+      "text": "[[웹 개발]], 데이터베이스 시스템 및 인공지능 분야에 관심을 가지고 있는 컴퓨터공학 학사 과정을 수강 중입니다. 프로젝트와 강의를 통해 Java, SQL, Python 기반의 실습 경험을 쌓았습니다.",
+      "list": [],
+      "tags": ["9.1 CGPA","final year"]
+    }
+  }
+},{
+  "id": 2,
+  "img": "https://tse3.mm.bing.net/th?id=OIP.7JYaPC4vzhe776vR9CpXvAAAAA&pid=Api&P=0&h=180",
+  "faIcon": "fa-solid fa-school",
+  "faIconColors": { "bg": "#10b981", "fill": "#ffffff" },
+  "dateStart": { "year": 2020, "month": 6 },
+  "dateEnd": { "year": 2022, "month": 5 },
+  "locales": {
+    "en": {
+      "title": "Higher Secondary Education – Computer & Mathematics Stream",
+      "province": "India, Tamil Nadu",
+      "country": "India",
+      "institution": "Adarsh Matriculation Higher Secondary School",
+      "text": "Completed [[Higher Secondary education]] in the Computer and Mathematics stream. Developed strong fundamentals in programming, logical reasoning, and analytical thinking. Participated in academic events, coding contests, and science exhibitions.",
+      "list": [],
+      "tags": ["HSC","89%","534/600"]
+    },
+    "es": {
+      "title": "Educación Secundaria Superior – Rama de Computación y Matemáticas",
+      "province": "India, Tamil Nadu",
+      "country": "India",
+      "institution": "Adarsh Matriculation Higher Secondary School",
+      "text": "Completé la [[educación secundaria superior]] en la rama de Computación y Matemáticas, adquiriendo una base sólida en programación y razonamiento lógico. Participé en concursos y exposiciones científicas.",
+      "list": [],
+      "tags": ["HSC","89%","534/600"]
+    },
+    "fr": {
+      "title": "Enseignement Secondaire Supérieur – Filière Informatique et Mathématiques",
+      "province": "India, Tamil Nadu",
+      "country": "Inde",
+      "institution": "Adarsh Matriculation Higher Secondary School",
+      "text": "Terminé l'[[enseignement secondaire supérieur]] en informatique et mathématiques. Acquis des bases solides en programmation, raisonnement logique et résolution analytique. Participation à des événements académiques et concours scientifiques.",
+      "list": [],
+      "tags": ["HSC","89%","534/600"]
+    },
+    "ko": {
+      "title": "고등학교 교육 – 컴퓨터 및 수학 계열",
+      "province": "타밀나두 주 포네리",
+      "country": "인도",
+      "institution": "아다르시 고등학교",
+      "text": "[[컴퓨터 및 수학 계열]]의 고등학교 과정을 이수하였으며, 프로그래밍 기초, 논리적 사고력, 분석 능력을 배양했습니다. 학술 대회 및 과학 전시회에 참여하였습니다.",
+      "list": [],
+      "tags": ["HSC","89%","534/600"]
+    }
+  }
+},
                 {
-                    "id": 1,
-                    "img": "images/pictures/timeline-place-udacity.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2014, "month": 1},
-                    "dateEnd": {"year": 2014, "month": 6},
-                    "locales": {
-                        "en": {
-                            "title": "PHP Development {{Nanodegree}}",
-                            "province": "",
-                            "country": "Remote",
-                            "institution": "Udacity",
-                            "text": "Successfully completed an intensive Nanodegree program with a strong emphasis on [[PHP development]], where I gained comprehensive, hands-on experience in building dynamic and scalable web applications.",
-                            "list": [],
-                            "tags": []
-                        },
-                        "es": {
-                            "title": "Desarrollo en PHP {{Nanodegree}}",
-                            "province": "",
-                            "country": "Remoto",
-                            "institution": "Udacity",
-                            "text": "Completé con éxito un programa intensivo de Nanodegree con un fuerte enfoque en [[PHP development]], donde adquirí una experiencia práctica y completa en la creación de aplicaciones web dinámicas y escalables.",
-                            "list": []
-                        },
-                        "fr": {
-                            "title": "Développement PHP {{Nanodegree}}",
-                            "province": "",
-                            "country": "À distance",
-                            "institution": "Udacity",
-                            "text": "J'ai terminé avec succès un programme Nanodegree intensif axé sur [[PHP development]], au cours duquel j'ai acquis une expérience pratique approfondie dans la création d'applications web dynamiques et évolutives.",
-                            "list": []
-                        },
-                        "ko": {
-                            "title": "PHP 개발 {{Nanodegree}}",
-                            "province": "",
-                            "country": "원격",
-                            "institution": "Udacity",
-                            "text": "[[PHP development]]에 중점을 둔 집중형 나노디그리 프로그램을 성공적으로 수료했으며, 동적이고 확장 가능한 웹 애플리케이션을 구축하는 데 있어 폭넓고 실용적인 경험을 쌓았습니다.",
-                            "list": []
-                        }
-                    }
-                },
-                {
-                    "id": 2,
-                    "img": "images/pictures/timeline-place-mit.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2016, "month": 1},
-                    "dateEnd": {"year": 2020, "month": 12},
-                    "locales": {
-                        "en": {
-                            "title": "{{Bachelor}} in Computer Science",
-                            "province": "Massachusetts",
-                            "country": "US",
-                            "institution": "MIT",
-                            "text": "Earned a [[Bachelor's degree in Computer Science]], focusing on algorithms, data structures, software engineering, and web development. Gained hands-on experience through various programming projects, coding boot camps, and many collaborative team-based software development activities.",
-                            "list": [],
-                            "tags": []
-                        },
-                        "es": {
-                            "title": "{{Grado}} en Ciencias de la Computación",
-                            "province": "Massachusetts",
-                            "country": "EE. UU.",
-                            "institution": "MIT",
-                            "text": "Obtuve un [[grado en Ciencias de la Computación]], con enfoque en algoritmos, estructuras de datos, ingeniería de software y desarrollo web. Adquirí experiencia práctica a través de diversos proyectos de programación, bootcamps de codificación y actividades colaborativas de desarrollo en equipo.",
-                            "list": [],
-                            "tags": []
-                        },
-                        "fr": {
-                            "title": "{{Licence}} en informatique",
-                            "province": "Massachusetts",
-                            "country": "États-Unis",
-                            "institution": "MIT",
-                            "text": "J'ai obtenu une [[licence en informatique]], avec un accent sur les algorithmes, les structures de données, l’ingénierie logicielle et le développement web. J'ai acquis une solide expérience pratique grâce à divers projets de programmation, des bootcamps de code et des activités collaboratives en équipe.",
-                            "list": [],
-                            "tags": []
-                        },
-                        "ko": {
-                            "title": "컴퓨터 과학 {{학사}}",
-                            "province": "매사추세츠",
-                            "country": "미국",
-                            "institution": "MIT",
-                            "text": "알고리즘, 자료 구조, 소프트웨어 공학, 웹 개발에 중점을 둔 [[컴퓨터 과학 학사 학위]]를 취득하였습니다. 다양한 프로그래밍 프로젝트, 코딩 부트캠프, 그리고 팀 기반의 협업 활동을 통해 실무 경험을 쌓았습니다.",
-                            "list": [],
-                            "tags": []
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "img": "images/pictures/timeline-place-university-paris.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2020, "month": 9},
-                    "dateEnd": {"year": 2022, "month": 6},
-                    "locales": {
-                        "en": {
-                            "title": "{{Master's}} in Artificial Intelligence",
-                            "province": "",
-                            "country": "France",
-                            "institution": "University of Paris",
-                            "text": "Completed a comprehensive Master's program focused on [[cutting-edge AI topics]], including:",
-                            "list": [
-                                "Machine Learning",
-                                "Natural Language Processing (NLP)",
-                                "Neural Networks"
-                            ],
-                            "tags": [
-                                "Neural Networks",
-                                "Machine Learning"
-                            ]
-                        },
-                        "es": {
-                            "title": "{{Máster}} en Inteligencia Artificial",
-                            "province": "",
-                            "country": "Francia",
-                            "institution": "Universidad de París",
-                            "text": "Completé un programa de máster integral centrado en [[temas avanzados de IA]], incluyendo:",
-                            "list": [
-                                "Aprendizaje automático",
-                                "Procesamiento del lenguaje natural (PLN)",
-                                "Redes neuronales"
-                            ],
-                            "tags": [
-                                "Redes neuronales",
-                                "Aprendizaje automático"
-                            ]
-                        },
-                        "fr": {
-                            "title": "{{Master}} en Intelligence Artificielle",
-                            "province": "",
-                            "country": "France",
-                            "institution": "Université de Paris",
-                            "text": "J'ai terminé un programme de master complet axé sur [[les sujets avancés en IA]], notamment :",
-                            "list": [
-                                "Apprentissage automatique",
-                                "Traitement du langage naturel (NLP)",
-                                "Réseaux de neurones"
-                            ],
-                            "tags": [
-                                "Réseaux de neurones",
-                                "Apprentissage automatique"
-                            ]
-                        },
-                        "ko": {
-                            "title": "인공지능 {{석사}}",
-                            "province": "",
-                            "country": "프랑스",
-                            "institution": "파리 대학교",
-                            "text": "[[최첨단 인공지능 주제]]를 중심으로 한 종합적인 석사 과정을 수료하였으며, 주요 내용은 다음과 같습니다:",
-                            "list": [
-                                "머신러닝",
-                                "자연어 처리 (NLP)",
-                                "신경망"
-                            ],
-                            "tags": [
-                                "신경망",
-                                "머신러닝"
-                            ]
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "img": "images/pictures/timeline-place-harvard.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2022, "month": 9},
-                    "dateEnd": {"year": 2025, "month": 6},
-                    "locales": {
-                        "en": {
-                            "title": "{{PhD}} in Computer Science",
-                            "province": "Massachusetts",
-                            "country": "US",
-                            "institution": "Harvard University",
-                            "text": "Currently pursuing a PhD with a focus on [[deep learning]] and its real-world applications, particularly in:",
-                            "list": [
-                                "Computer Vision",
-                                "Innovative AI research",
-                                "Developing [[novel algorithms]] for image recognition"
-                            ],
-                            "tags": [
-                                "Deep Learning", "Computer Vision", "AI Research", "Algorithms"
-                            ]
-                        },
-                        "es": {
-                            "title": "{{Doctorado}} en Ciencias de la Computación",
-                            "province": "Massachusetts",
-                            "country": "EE. UU.",
-                            "institution": "Universidad de Harvard",
-                            "text": "Actualmente cursando un doctorado con enfoque en [[aprendizaje profundo]] y sus aplicaciones en el mundo real, especialmente en:",
-                            "list": [
-                                "Visión por computadora",
-                                "Investigación innovadora en IA",
-                                "Desarrollo de [[nuevos algoritmos]] para el reconocimiento de imágenes"
-                            ],
-                            "tags": ["Aprendizaje profundo", "Visión por computadora", "Investigación en IA", "Algoritmos"]
-                        },
-                        "fr": {
-                            "title": "{{Doctorat}} en informatique",
-                            "province": "Massachusetts",
-                            "country": "États-Unis",
-                            "institution": "Université Harvard",
-                            "text": "Actuellement en doctorat, avec une spécialisation en [[deep learning]] et ses applications concrètes, notamment dans :",
-                            "list": [
-                                "La vision par ordinateur",
-                                "La recherche innovante en IA",
-                                "Le développement de [[nouveaux algorithmes]] pour la reconnaissance d’images"
-                            ],
-                            "tags": ["Apprentissage profond", "Vision par ordinateur", "Recherche en IA", "Algorithmes"]
-                        },
-                        "ko": {
-                            "title": "컴퓨터 과학 {{박사}}",
-                            "province": "매사추세츠",
-                            "country": "미국",
-                            "institution": "하버드 대학교",
-                            "text": "[[딥러닝]] 및 그 실생활 적용에 중점을 둔 박사 과정을 진행 중이며, 주요 연구 분야는 다음과 같습니다:",
-                            "list": [
-                                "컴퓨터 비전",
-                                "혁신적인 인공지능 연구",
-                                "이미지 인식을 위한 새로운 알고리즘 개발"
-                            ],
-                            "tags": ["딥러닝", "컴퓨터 비전", "AI 연구", "알고리즘"]
-                        }
-                    }
-                }
+  "id": 3,
+  "img": "https://tse3.mm.bing.net/th?id=OIP.7JYaPC4vzhe776vR9CpXvAAAAA&pid=Api&P=0&h=180",
+  "faIcon": "fa-solid fa-school",
+  "faIconColors": { "bg": "#0ea5e9", "fill": "#ffffff" },
+  "dateStart": { "year": 2019, "month": 6 },
+  "dateEnd": { "year": 2020, "month": 5 },
+  "locales": {
+    "en": {
+      "title": "SSLC – Secondary School Leaving Certificate",
+      "province": "India, Tamil Nadu",
+      "country": "India",
+      "institution": "Adarsh Matriculation Higher Secondary School",
+      "text": "Completed [[SSLC]] with a focus on core subjects like Science, Mathematics, English, and Tamil. Built a strong academic foundation and participated in school-level competitions and cultural activities.",
+      "list": [],
+      "tags": ["SSLC", "451/500","90.2%"]
+    },
+    "es": {
+      "title": "Certificado de Finalización de Escuela Secundaria (SSLC)",
+      "province": "India, Tamil Nadu",
+      "country": "India",
+      "institution": "Adarsh Matriculation Higher Secondary School",
+      "text": "Completé el [[SSLC]] centrándome en materias como Ciencias, Matemáticas, Inglés y Tamil. Desarrollé una base académica sólida y participé en concursos escolares.",
+      "list": [],
+      "tags": ["SSLC", "451/500","90.2%"]
+    },
+    "fr": {
+      "title": "Certificat de fin d'études secondaires (SSLC)",
+      "province": "India, Tamil Nadu",
+      "country": "Inde",
+      "institution": "Adarsh Matriculation Higher Secondary School",
+      "text": "Terminé le [[SSLC]] en me concentrant sur les matières principales telles que les sciences, les mathématiques, l’anglais et le tamoul. Participation active à des concours et événements scolaires.",
+      "list": [],
+      "tags": ["SSLC", "451/500","90.2%"]
+    },
+    "ko": {
+      "title": "중등학교 졸업 인증서 (SSLC)",
+      "province": "타밀나두 주 포네리",
+      "country": "인도",
+      "institution": "아다르시 고등학교",
+      "text": "과학, 수학, 영어, 타밀어 등의 핵심 과목을 중심으로 [[SSLC]] 과정을 이수하였습니다. 학업 기초를 튼튼히 다졌으며, 학교 대회와 문화 행사에도 적극 참여하였습니다.",
+      "list": [],
+      "tags": ["SSLC", "451/500","90.2%"]
+    }
+  }
+}          
             ]
         }
     ]

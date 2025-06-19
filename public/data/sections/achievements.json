@@ -44,340 +44,233 @@
             },
             "items": [
                 {
-                    "id": 1,
-                    "img": "",
-                    "faIcon": "fa-solid fa-life-ring",
-                    "faIconColors": {"bg": "#326CE5", "fill": "#EEE"},
-                    "date": {"year": 2020, "month": 12},
-                    "link": {"href": "https://www.linuxfoundation.org/", "tooltipString": "see_certification"},
-                    "locales": {
-                        "en": {
-                            "title": "The {{Linux Foundation}}",
-                            "text": "Certified Kubernetes Administrator (CKA)"
-                        },
-                        "es": {
-                            "text": "Administrador de Kubernetes Certificado (CKA)"
-                        },
-                        "fr": {
-                            "text": "Administrateur Kubernetes Certifié (CKA)"
-                        },
-                        "ko": {
-                            "text": "Kubernetes 인증 관리자 (CKA)"
-                        }
-                    }
-                },
+    "id": 1,
+    "img": "https://tse1.mm.bing.net/th?id=OIP.U57BmEuEt50WXwI1rjaw_QHaHO&pid=Api&P=0&h=180",
+    "faIcon": "fa-solid fa-certificate",
+    "faIconColors": {"bg": "#D22B2B", "fill": "#FFF"},
+    "date": {"year": 2024, "month": 4},
+    "link": {"href": "https://nptel.ac.in/", "tooltipString": "View Certificate"},
+    "locales": {
+        "en": {
+            "title": "NPTEL {{Java}} Certification",
+            "text": "Programming in Java - Certified by IIT Kharagpur"
+        },
+        "es": {
+            "title": "Certificación NPTEL en {{Java}}",
+            "text": "Programación en Java - Certificado por IIT Kharagpur"
+        },
+        "fr": {
+            "title": "Certification NPTEL en {{Java}}",
+            "text": "Programmation en Java - Certifié par IIT Kharagpur"
+        },
+        "ko": {
+            "title": "NPTEL {{자바}} 인증",
+            "text": "IIT Kharagpur 인증 자바 프로그래밍"
+        }
+    }
+},
 
                 {
-                    "id": 2,
-                    "img": "",
-                    "faIcon": "fa-brands fa-aws",
-                    "faIconColors": {"bg": "#FFD700", "fill": "#111"},
-                    "date": {"year": 2021, "month": 5},
-                    "link": {"href": "https://www.aws.com/", "tooltipString": "see_certification"},
-                    "locales": {
-                        "en": {
-                            "title": "{{Amazon}} Web Services",
-                            "text": "AWS Certified Solutions Architect – Associate"
-                        },
-                        "es": {
-                            "text": "Arquitecto de Soluciones Certificado por AWS - Asociado"
-                        },
-                        "fr": {
-                            "text": "Architecte de Solutions Certifié AWS - Associé"
-                        },
-                        "ko": {
-                            "text": "AWS 공인 솔루션 아키텍트 - 준회원"
-                        }
-                    }
-                },
+  "id": 2,
+  "img": "",
+  "faIcon": "fa-solid fa-laptop-code",
+  "faIconColors": { "bg": "#f57c00", "fill": "#fff" },
+  "date": { "year": 2024, "month": 4 },
+  "link": {
+    "href": "https://nptel.ac.in/",
+    "tooltipString": "see_certification"
+  },
+  "locales": {
+    "en": {
+      "title": "Joy of Computing using {{Python}}",
+      "text": "Completed a 12-week NPTEL course in 2024 focused on building logic, solving problems using Python, and understanding the joy behind computational thinking."
+    },
+    "es": {
+      "title": "La Alegría de Programar en {{Python}}",
+      "text": "Completé un curso de 12 semanas de NPTEL en 2024 centrado en la lógica de programación, resolución de problemas y pensamiento computacional con Python."
+    },
+    "fr": {
+      "title": "La Joie de Programmer en {{Python}}",
+      "text": "Cours NPTEL de 12 semaines terminé en 2024, axé sur la résolution de problèmes, la logique et la pensée computationnelle avec Python."
+    },
+    "ko": {
+      "title": "{{Python}}으로 컴퓨팅의 즐거움",
+      "text": "2024년 12주 과정의 NPTEL 수료. Python을 사용한 문제 해결, 논리적 사고 및 계산적 사고의 즐거움을 배움."
+    }
+  }
+},
 
                 {
-                    "id": 3,
-                    "img": "",
-                    "faIcon": "fa-brands fa-java",
-                    "faIconColors": {"bg": "#007396", "fill": "#EEE"},
-                    "date": {"year": 2022, "month": 5},
-                    "link": {"href": "https://www.oracle.com/", "tooltipString": "see_certification"},
-                    "locales": {
-                        "en": {
-                            "title": "{{Oracle}}",
-                            "text": "Certified Java Developer"
-                        },
-                        "es": {
-                            "text": "Desarrollador Java Certificado"
-                        },
-                        "fr": {
-                            "text": "Développeur Java Certifié"
-                        },
-                        "ko": {
-                            "text": "공인 자바 개발자"
-                        }
-                    }
-                },
-
-                {
-                    "id": 4,
-                    "img": "",
-                    "faIcon": "fa-solid fa-database",
-                    "faIconColors": {"bg": "#47A248", "fill": "#EEE"},
-                    "date": {"year": 2023, "month": 8},
-                    "link": {"href": "https://www.mongodb.com/", "tooltipString": "see_certification"},
-                    "locales": {
-                        "en": {
-                            "title": "{{MongoDB}} University",
-                            "text": "MongoDB Certified Developer"
-                        },
-                        "es": {
-                            "text": "Desarrollador Certificado de MongoDB"
-                        },
-                        "fr": {
-                            "text": "Développeur Certifié MongoDB"
-                        },
-                        "ko": {
-                            "text": "MongoDB 공인 개발자"
-                        }
-                    }
-                }
+  "id": 3,
+  "img": "",
+  "faIcon": "fa-solid fa-database",
+  "faIconColors": { "bg": "#0066CC", "fill": "#fff" },
+  "date": { "year": 2025, "month": 6 },
+  "link": {
+    "href": "https://www.coursera.org/learn/database-structures-management-mysql",
+    "tooltipString": "see_certification"
+  },
+  "locales": {
+    "en": {
+      "title": "Meta: Database Structures and Management with {{MySQL}}",
+      "text": "Completed a Coursera certification offered by Meta in 2025. Gained expertise in relational databases, data modeling, SQL queries, and database management using MySQL."
+    },
+    "es": {
+      "title": "Meta: Estructuras y Gestión de Bases de Datos con {{MySQL}}",
+      "text": "Certificación completada en Coursera ofrecida por Meta en 2025. Aprendí sobre bases de datos relacionales, modelado de datos, consultas SQL y gestión de bases de datos con MySQL."
+    },
+    "fr": {
+      "title": "Meta : Structures et gestion de base de données avec {{MySQL}}",
+      "text": "Certificat Coursera complété en 2025 proposé par Meta. Acquis des compétences sur les bases de données relationnelles, le SQL, et la gestion de MySQL."
+    },
+    "ko": {
+      "title": "Meta: {{MySQL}} 데이터베이스 구조 및 관리",
+      "text": "Meta에서 제공하는 Coursera 과정(2025년 완료)을 통해 관계형 데이터베이스, 데이터 모델링, SQL 쿼리 및 MySQL 기반 데이터베이스 관리를 학습했습니다."
+    }
+  }
+}
             ]
         },
 
         {
-            "id": 2,
-            "component": "ArticleThread",
+    "id": 2,
+    "component": "ArticleThread",
+    "locales": {
+        "en": { "title": "Extra-Curricular Achievements" },
+        "es": { "title": "Logros Extra-Curriculares" },
+        "fr": { "title": "Réalisations Extra-Scolaires" },
+        "ko": { "title": "교과 외 활동 성과" }
+    },
+    "settings": {
+        "max_rows_collapse_threshold": 3,
+        "order_items_by": "date",
+        "order_items_sort": "desc"
+    },
+    "items": [
+        {
+            "id": 1,
             "locales": {
-                "en": { "title": "Awards" },
-                "es": { "title": "Premios" },
-                "fr": { "title": "Récompenses" },
-                "ko": { "title": "수상 내역" }
-            },
-            "settings": {
-                "max_rows_collapse_threshold": 4,
-                "order_items_by": "date",
-                "order_items_sort": "desc"
-            },
-            "items": [
-                {
-                    "id": 1,
-                    "date": {"year": 2019, "month": 9},
-                    "preview": {
-                        "links": [
-                            {"href": "https://mag.wcoomd.org/uploads/2018/05/blank.pdf", "tooltipString": "read", "faIcon": "fa-solid fa-file-pdf"}
-                        ],
-                        "screenshots": [],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "{{Best Graduation Project}} – Backend Optimization",
-                            "province": "Massachusetts",
-                            "country": "US",
-                            "institution": "MIT",
-                            "text": "Awarded for outstanding performance in optimizing backend systems during my final year project where I improved the efficiency of data processing by 30%. I have also received a certificate of recognition for this achievement."
-                        },
-                        "es": {
-                            "title": "{{Mejor Proyecto de Fin de Carrera}} – Optimización Backend",
-                            "province": "Massachusetts",
-                            "country": "EE.UU.",
-                            "institution": "MIT",
-                            "text": "Premiado por un rendimiento excepcional en la optimización de sistemas backend durante mi proyecto de fin de carrera, donde mejoré la eficiencia del procesamiento de datos en un 30%. También he recibido un certificado de reconocimiento por este logro."
-                        },
-                        "fr": {
-                            "title": "{{Meilleur Projet de Fin d'Études}} – Optimisation Backend",
-                            "province": "Massachusetts",
-                            "country": "États-Unis",
-                            "institution": "MIT",
-                            "text": "Récompensé pour une performance exceptionnelle dans l'optimisation des systèmes backend lors de mon projet de fin d'études, où j'ai amélioré l'efficacité du traitement des données de 30%. J'ai également reçu un certificat de reconnaissance pour cette réalisation."
-                        },
-                        "ko": {
-                            "title": "{{최우수 졸업 프로젝트}} – 백엔드 최적화",
-                            "province": "매사추세츠",
-                            "country": "미국",
-                            "institution": "MIT",
-                            "text": "졸업 프로젝트에서 백엔드 시스템 최적화로 뛰어난 성과를 인정받아 수상하였으며, 데이터 처리 효율을 30% 향상시켰습니다. 이 성과에 대한 인증서도 받았습니다."
-                        }
-                    }
+                "en": {
+                    "title": "Chess Competitions",
+                    "text": "Notable achievements in chess:",
+                    "list": [
+                        "Second Runner-up - Zonal Championship (2024)",
+                        "Participant - Zonal Level (2020, 2019)",
+                        "Winner - Zonal Championship (2018)",
+                        "Winner & Second Runner-up - School Level Sports Day (2018-2020)"
+                    ]
                 },
-
-                {
-                    "id": 2,
-                    "date": {"year": 2020, "month": 5},
-                    "preview": {
-                        "links": [
-                            {"href": "https://github.com/ryanbalieiro/react-portfolio-template", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"},
-                            {"href": "https://www.linuxfoundation.org/", "tooltipString": "open_website", "faIcon": "fa-brands fa-linux"}
-                        ],
-                        "screenshots": [],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "{{Top Contributor}} – Open Source Linux Foundation Project",
-                            "province": "",
-                            "country": "",
-                            "institution": "Linux Foundation",
-                            "text": "Recognized as a top contributor for my significant contributions to an open source project under the Linux Foundation, where I implemented key features and resolved critical bugs, enhancing the project's stability and performance. My contributions involved: ",
-                            "list": [
-                                "Implementing a new feature that improved user experience by 25%",
-                                "Resolving over 50 critical bugs that enhanced system reliability",
-                                "Contributing to the documentation and community support"
-                            ]
-                        },
-                        "es": {
-                            "title": "{{Contribuyente Destacado}} – Proyecto de Código Abierto de la Fundación Linux",
-                            "province": "",
-                            "country": "",
-                            "institution": "Fundación Linux",
-                            "text": "Reconocido como un contribuyente destacado por mis contribuciones significativas a un proyecto de código abierto bajo la Fundación Linux, donde implementé características clave y resolví errores críticos, mejorando la estabilidad y el rendimiento del proyecto. Mis contribuciones incluyeron: ",
-                            "list": [
-                                "Implementación de una nueva característica que mejoró la experiencia del usuario en un 25%",
-                                "Resolución de más de 50 errores críticos que mejoraron la fiabilidad del sistema",
-                                "Contribución a la documentación y soporte comunitario"
-                            ]
-                        },
-                        "fr": {
-                            "title": "{{Contributeur Principal}} – Projet Open Source de la Fondation Linux",
-                            "province": "",
-                            "country": "",
-                            "institution": "Fondation Linux",
-                            "text": "Reconnu comme un contributeur principal pour mes contributions significatives à un projet open source sous la Fondation Linux, où j'ai implémenté des fonctionnalités clés et résolu des bugs critiques, améliorant la stabilité et les performances du projet. Mes contributions ont inclus : ",
-                            "list": [
-                                "Implémentation d'une nouvelle fonctionnalité qui a amélioré l'expérience utilisateur de 25%",
-                                "Résolution de plus de 50 bugs critiques qui ont amélioré la fiabilité du système",
-                                "Contribution à la documentation et au support communautaire"
-                            ]
-                        },
-                        "ko": {
-                            "title": "{{최고 기여자}} – 오픈 소스 리눅스 재단 프로젝트",
-                            "province": "",
-                            "country": "",
-                            "institution": "리눅스 재단",
-                            "text": "리눅스 재단의 오픈 소스 프로젝트에 대한 중요한 기여로 최고 기여자로 인정받았으며, 주요 기능을 구현하고 중요한 버그를 해결하여 프로젝트의 안정성과 성능을 향상시켰습니다. 제 기여 내용은 다음과 같습니다: ",
-                            "list": [
-                                "사용자 경험을 25% 향상시킨 새로운 기능 구현",
-                                "시스템 신뢰성을 향상시킨 50개 이상의 중요한 버그 해결",
-                                "문서화 및 커뮤니티 지원에 기여"
-                            ]
-                        }
-                    }
+                "es": {
+                    "title": "Competiciones de Ajedrez",
+                    "text": "Logros notables en ajedrez:",
+                    "list": [
+                        "Tercer lugar - Campeonato Zonal (2024)",
+                        "Participante - Nivel Zonal (2020, 2019)",
+                        "Ganador - Campeonato Zonal (2018)",
+                        "Ganador y Tercer lugar - Día Deportivo Escolar (2018-2020)"
+                    ]
                 },
-
-                {
-                    "id": 3,
-                    "date": {"year": 2022, "month": 11},
-                    "preview": {
-                        "links": [
-                            {"href": "https://medium.com", "tooltipString": "open_website", "faIcon": "fa-brands fa-medium"},
-                            {"href": "https://www.ieee.org/", "tooltipString": "open_website", "faIcon": "fa-solid fa-award"},
-                            {"href": "https://www.acm.org/", "tooltipString": "open_website", "faIcon": "fa-solid fa-trophy"}
-                        ],
-                        "screenshots": [],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "{{Best Paper}} – International Summit",
-                            "province": "Beijing",
-                            "country": "China",
-                            "institution": "IEEE",
-                            "text": "Awarded for my research paper on software optimization techniques, which was presented at the International Conference on Software Engineering. The paper received positive feedback from industry experts and was published in the conference proceedings."
-                        },
-                        "es": {
-                            "title": "{{Mejor Artículo}} – Cumbre Internacional",
-                            "province": "Pekín",
-                            "country": "China",
-                            "institution": "IEEE",
-                            "text": "Premiado por mi artículo de investigación sobre técnicas de optimización de software, que fue presentado en la Conferencia Internacional sobre Ingeniería de Software. El artículo recibió comentarios positivos de expertos de la industria y fue publicado en las actas de la conferencia."
-                        },
-                        "fr": {
-                            "title": "{{Meilleur Article}} – Sommet International",
-                            "province": "Pékin",
-                            "country": "Chine",
-                            "institution": "IEEE",
-                            "text": "Récompensé pour mon article de recherche sur les techniques d'optimisation logicielle, qui a été présenté à la Conférence Internationale sur l'Ingénierie Logicielle. L'article a reçu des commentaires positifs d'experts du secteur et a été publié dans les actes de la conférence."
-                        },
-                        "ko": {
-                            "title": "{{최우수 논문}} – 국제 정상 회담",
-                            "province": "베이징",
-                            "country": "중국",
-                            "institution": "IEEE",
-                            "text": "소프트웨어 최적화 기술에 관한 연구 논문으로 국제 소프트웨어 공학 회의에서 발표하여 수상하였으며, 이 논문은 업계 전문가들로부터 긍정적인 피드백을 받았고 회의록에 게재되었습니다."
-                        }
-                    }
+                "fr": {
+                    "title": "Compétitions d'Échecs",
+                    "text": "Réalisations notables aux échecs :",
+                    "list": [
+                        "Troisième place - Championnat Zonal (2024)",
+                        "Participant - Niveau Zonal (2020, 2019)",
+                        "Vainqueur - Championnat Zonal (2018)",
+                        "Vainqueur et Troisième place - Journée Sportive Scolaire (2018-2020)"
+                    ]
                 },
-
-                {
-                    "id": 4,
-                    "date": {"year": 2024, "month": 6},
-                    "preview": {
-                        "links": [
-                            {"href": "https://medium.com", "tooltipString": "open_website", "faIcon": "fa-brands fa-medium"}
-                        ],
-                        "screenshots": [
-                            "images/pictures/screenshot-demo-square-1.jpg",
-                            "images/pictures/screenshot-demo-square-2.jpg",
-                            "images/pictures/screenshot-demo-square-3.jpg",
-                            "images/pictures/screenshot-demo-square-4.jpg",
-                            "images/pictures/screenshot-demo-square-5.jpg",
-                            "images/pictures/screenshot-demo-square-6.jpg"
-                        ],
-                        "screenshotsAspectRatio": "1:1",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=RGTfS-48Gf0"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "{{Best Innovator}} – Tech Innovation Summit",
-                            "province": "Rio de Janeiro",
-                            "country": "Brazil",
-                            "institution": "Tech Innovators Brazil",
-                            "text": "Recognized as the [[best innovator]] for my groundbreaking work in developing a new software tool that significantly improved data analysis processes. The tool was adopted by several leading companies in the industry, and I received a certificate of recognition for my contributions. My tool featured the following innovations: ",
-                            "list": [
-                                "Real-time data processing capabilities",
-                                "User-friendly interface that reduced training time by 50%",
-                                "Integration with popular data visualization tools"
-                            ]
-                        },
-                        "es": {
-                            "title": "{{Mejor Innovador}} – Cumbre de Innovación Tecnológica",
-                            "province": "Río de Janeiro",
-                            "country": "Brasil",
-                            "institution": "Innovadores Tecnológicos Brasil",
-                            "text": "Reconocido como el [[mejor innovador]] por mi trabajo innovador en el desarrollo de una nueva herramienta de software que mejoró significativamente los procesos de análisis de datos. La herramienta fue adoptada por varias empresas líderes en la industria, y recibí un certificado de reconocimiento por mis contribuciones. Mi herramienta presentó las siguientes innovaciones: ",
-                            "list": [
-                                "Capacidades de procesamiento de datos en tiempo real",
-                                "Interfaz fácil de usar que redujo el tiempo de capacitación en un 50%",
-                                "Integración con herramientas populares de visualización de datos"
-                            ]
-                        },
-                        "fr": {
-                            "title": "{{Meilleur Innovateur}} – Sommet de l'Innovation Technologique",
-                            "province": "Rio de Janeiro",
-                            "country": "Brésil",
-                            "institution": "Innovateurs Technologiques Brésil",
-                            "text": "Reconnu comme le [[meilleur innovateur]] pour mon travail révolutionnaire dans le développement d'un nouvel outil logiciel qui a considérablement amélioré les processus d'analyse de données. L'outil a été adopté par plusieurs entreprises leaders du secteur, et j'ai reçu un certificat de reconnaissance pour mes contributions. Mon outil présentait les innovations suivantes : ",
-                            "list": [
-                                "Capacités de traitement des données en temps réel",
-                                "Interface conviviale qui a réduit le temps de formation de 50%",
-                                "Intégration avec des outils populaires de visualisation des données"
-                            ]
-                        },
-                        "ko": {
-                            "title": "{{최고 혁신가}} – 기술 혁신 정상 회담",
-                            "province": "리우데자네이루",
-                            "country": "브라질",
-                            "institution": "브라질 기술 혁신가",
-                            "text": "데이터 분석 프로세스를 크게 개선하는 새로운 소프트웨어 도구 개발에서 획기적인 작업으로 최고의 혁신가로 인정받았습니다. 이 도구는 업계의 여러 선도 기업에서 채택되었으며, 제 기여에 대한 인증서를 받았습니다. 제 도구는 다음과 같은 혁신을 특징으로 하였습니다: ",
-                            "list": [
-                                "실시간 데이터 처리 기능",
-                                "교육 시간을 50% 단축시킨 사용자 친화적인 인터페이스",
-                                "인기 있는 데이터 시각화 도구와의 통합"
-                            ]
-                        }
-                    }
+                "ko": {
+                    "title": "체스 대회",
+                    "text": "체스에서 주목할만한 성과:",
+                    "list": [
+                        "3위 - 지역 챔피언십 (2024)",
+                        "참가자 - 지역 대회 (2020, 2019)",
+                        "우승자 - 지역 챔피언십 (2018)",
+                        "우승자 및 3위 - 학교 체육대회 (2018-2020)"
+                    ]
                 }
-            ]
+            }
+        },
+        {
+            "id": 2,
+            "locales": {
+                "en": {
+                    "title": "Oratory Competitions",
+                    "text": "Achievements in public speaking:",
+                    "list": [
+                        "Multiple school-level Tamil oratory competition wins",
+                        "English elocution competition winner",
+                        "District-level Tamil oratory participant"
+                    ]
+                },
+                "es": {
+                    "title": "Concursos de Oratoria",
+                    "text": "Logros en oratoria:",
+                    "list": [
+                        "Múltiples victorias en concursos de oratoria Tamil a nivel escolar",
+                        "Ganador de concurso de elocución en inglés",
+                        "Participante en oratoria Tamil a nivel distrital"
+                    ]
+                },
+                "fr": {
+                    "title": "Concours d'Art Oratoire",
+                    "text": "Réussites en prise de parole :",
+                    "list": [
+                        "Plusieurs victoires en concours d'oratoire Tamil niveau scolaire",
+                        "Vainqueur de concours d'élocution anglaise",
+                        "Participant à l'oratoire Tamil niveau district"
+                    ]
+                },
+                "ko": {
+                    "title": "웅변 대회",
+                    "text": "공개 연설 성과:",
+                    "list": [
+                        "학교 수준 타밀어 연설 대회 다수 우승",
+                        "영어 낭독 대회 우승자",
+                        "지역 수준 타밀어 연설 대회 참가자"
+                    ]
+                }
+            }
+        },
+        {
+            "id": 3,
+            "locales": {
+                "en": {
+                    "title": "Academic Distinction",
+                    "text": "Notable academic accomplishments:",
+                    "list": [
+                        "Top 10 in School - SSLC Examinations",
+                        "Consistent Academic Performer"
+                    ]
+                },
+                "es": {
+                    "title": "Distinción Académica",
+                    "text": "Logros académicos notables:",
+                    "list": [
+                        "Top 10 en la Escuela - Exámenes SSLC",
+                        "Rendimiento Académico Consistente"
+                    ]
+                },
+                "fr": {
+                    "title": "Distinction Académique",
+                    "text": "Réalisations académiques notables :",
+                    "list": [
+                        "Top 10 de l'École - Examens SSLC",
+                        "Performance Académique Constante"
+                    ]
+                },
+                "ko": {
+                    "title": "학업 우수",
+                    "text": "주목할만한 학업 성취:",
+                    "list": [
+                        "학교 상위 10위 - SSLC 시험",
+                        "꾸준한 학업 성적"
+                    ]
+                }
+            }
         }
+    ]
+}
     ]
 }
