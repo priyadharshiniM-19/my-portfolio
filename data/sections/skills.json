@@ -384,7 +384,7 @@
         },
         {
             "id": 2,
-            "img": "images/flags/en-us.png",
+            "img": "my-portfolio/images/flags/en-us.png",
             "faIcon": "",
             "faIconColors": {"bg": "", "fill": ""},
             "locales": {
