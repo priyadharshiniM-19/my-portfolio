@@ -2,8 +2,6 @@
 
 A sleek, developer-focused portfolio built by **Priyadharshini M**, specializing in **Front-end Development** and **Prompt Engineering**. This template was adapted from the original work of Ryan Balieiro and personalized for modern developers.
 
-![alt promo](docs/assets/readme-promotional-image-min.png)
-
 ---
 
 ## ✨ Key Features
@@ -24,6 +22,5 @@ A sleek, developer-focused portfolio built by **Priyadharshini M**, specializing
 |---------|--------------------------------------|------------------------------------------------------------------|
 | 🟢      | Priyadharshini M (customized)        | [View Portfolio](https://priyadharshinim-19.github.io/my-portfolio/) |
 
-> Replace `yourusername` in the URL above with your actual GitHub username once you deploy it.
 
 ---
