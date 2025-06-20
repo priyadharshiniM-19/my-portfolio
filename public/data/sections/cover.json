@@ -74,7 +74,7 @@
       "items": [
         {
           "id": 1,
-          "img": "images/pictures/about-texts-image-1.png",
+          "img": "my-portfolio/images/pictures/about-texts-image-1.png",
           "faIcon": "",
           "faIconColors": { "bg": "", "fill": "" },
           "locales": {
@@ -98,16 +98,16 @@
           "faIconColors": { "bg": "", "fill": "" },
           "locales": {
   "en": {
-    "text": "<div style='text-align:center;'><img src='public/images/pictures/code-snippet.png' alt='Code snippet' class='code-image' style='max-width:25%; height:auto; border-radius:8px; display:block; margin:0 auto;'></div>"
+    "text": "<div style='text-align:center;'><img src='my-portfolio/images/pictures/code-snippet.png' alt='Code snippet' class='code-image' style='max-width:25%; height:auto; border-radius:8px; display:block; margin:0 auto;'></div>"
   },
   "es": {
-    "text": "<div style='text-align:center;'><img src='public/images/pictures/code-snippet.png' alt='Fragmento de código' class='code-image' style='max-width:25%; height:auto; border-radius:8px; display:block; margin:0 auto;'></div>"
+    "text": "<div style='text-align:center;'><img src='my-portfolio/images/pictures/code-snippet.png' alt='Fragmento de código' class='code-image' style='max-width:25%; height:auto; border-radius:8px; display:block; margin:0 auto;'></div>"
   },
   "fr": {
-    "text": "<div style='text-align:center;'><img src='public/images/pictures/code-snippet.png' alt='Extrait de code' class='code-image' style='max-width:25%; height:auto; border-radius:8px; display:block; margin:0 auto;'></div>"
+    "text": "<div style='text-align:center;'><img src='my-portfolio/images/pictures/code-snippet.png' alt='Extrait de code' class='code-image' style='max-width:25%; height:auto; border-radius:8px; display:block; margin:0 auto;'></div>"
   },
   "ko": {
-    "text": "<div style='text-align:center;'><img src='public/images/pictures/code-snippet.png' alt='코드 스니펫' class='code-image' style='max-width:25%; height:auto; border-radius:8px; display:block; margin:0 auto;'></div>"
+    "text": "<div style='text-align:center;'><img src='my-portfolio/images/pictures/code-snippet.png' alt='코드 스니펫' class='code-image' style='max-width:25%; height:auto; border-radius:8px; display:block; margin:0 auto;'></div>"
   }
 }
         }
