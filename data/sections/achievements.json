@@ -1,299 +1,276 @@
 {
-    "locales": {
-        "en": {
-            "title": "Awards",
-            "title_menu": "Achievements",
-            "title_long_prefix": "Here are my",
-            "title_long": "Career **Achievements**"
-        },
-
-        "es": {
-            "title": "Logros",
-            "title_menu": "Logros",
-            "title_long_prefix": "Aquí están mis",
-            "title_long": "**Logros** Profesionales"
-        },
-
-        "fr": {
-            "title": "Réalis",
-            "title_menu": "Réalisations",
-            "title_long_prefix": "Voici",
-            "title_long": "Mes **Réalisations**"
-        },
-
-        "ko": {
-            "title": "경력 성과",
-            "title_menu": "경력 성과",
-            "title_long_prefix": "다음은",
-            "title_long": "**경력 성과**입니다"
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Awards",
+                "title_short_nav": "Achievements",
+                "title_long_prefix": "Here are my",
+                "title_long": "Career {{Achievements}}"
+            },
+            "es": {
+                "title_short": "Logros",
+                "title_short_nav": "Logros",
+                "title_long_prefix": "Aquí están mis",
+                "title_long": "{{Logros}} Profesionales"
+            },
+            "fr": {
+                "title_short": "Réalis",
+                "title_short_nav": "Réalisations",
+                "title_long_prefix": "Voici",
+                "title_long": "Mes {{Réalisations}}"
+            },
+            "ko": {
+                "title_short": "경력 성과",
+                "title_short_nav": "경력 성과",
+                "title_long_prefix": "다음은",
+                "title_long": "{{경력 성과}}입니다"
+            }
         }
     },
 
     "articles": [
         {
-            "id": "certifications",
+            "id": 1,
             "component": "ArticleCards",
-            "config": {},
             "locales": {
                 "en": { "title": "Certifications" },
                 "es": { "title": "Certificaciones" },
                 "fr": { "title": "Certifications" },
                 "ko": { "title": "인증서" }
             },
-
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
             "items": [
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-life-ring",
-                        "faColors": {"bg": "#326CE5", "fill": "#EEE"}
-                    },
-                    "dates": {
-                        "start": "12/01/2020",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "see_certification", "href": "https://www.linuxfoundation.org/" }
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "The **Linux Foundation**",
-                            "text": "Certified Kubernetes Administrator (CKA)"
-                        },
-                        "es": {
-                            "text": "Administrador Kubernetes Certificado (CKA)"
-                        },
-                        "fr": {
-                            "text": "Administrateur Kubernetes Certifié (CKA)"
-                        },
-                        "ko": {
-                            "text": "인증된 쿠버네티스 관리자 (CKA)"
-                        }
-                    }
-                },
+    "id": 1,
+    "img": "https://tse1.mm.bing.net/th?id=OIP.U57BmEuEt50WXwI1rjaw_QHaHO&pid=Api&P=0&h=180",
+    "faIcon": "fa-solid fa-certificate",
+    "faIconColors": {"bg": "#D22B2B", "fill": "#FFF"},
+    "date": {"year": 2024, "month": 4},
+    "link": {"href": "https://nptel.ac.in/", "tooltipString": "View Certificate"},
+    "locales": {
+        "en": {
+            "title": "NPTEL {{Java}} Certification",
+            "text": "Programming in Java - Certified by IIT Kharagpur"
+        },
+        "es": {
+            "title": "Certificación NPTEL en {{Java}}",
+            "text": "Programación en Java - Certificado por IIT Kharagpur"
+        },
+        "fr": {
+            "title": "Certification NPTEL en {{Java}}",
+            "text": "Programmation en Java - Certifié par IIT Kharagpur"
+        },
+        "ko": {
+            "title": "NPTEL {{자바}} 인증",
+            "text": "IIT Kharagpur 인증 자바 프로그래밍"
+        }
+    }
+},
+
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-aws",
-                        "faColors": {"bg": "#FFD700", "fill": "#111"}
-                    },
-                    "dates": {
-                        "start": "05/05/2021",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "see_certification", "href": "https://www.aws.com/" }
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "**Amazon** Web Services",
-                            "text": "AWS Certified Solutions Architect – Associate"
-                        },
-                        "es": {
-                            "text": "Arquitecto de Soluciones Certificado de AWS – Asociado"
-                        },
-                        "fr": {
-                            "text": "Architecte de Solutions Certifié AWS – Associé"
-                        },
-                        "ko": {
-                            "text": "AWS 인증 솔루션 아키텍트 – 어소시에이트"
-                        }
-                    }
-                },
+  "id": 2,
+  "img": "",
+  "faIcon": "fa-solid fa-laptop-code",
+  "faIconColors": { "bg": "#f57c00", "fill": "#fff" },
+  "date": { "year": 2024, "month": 4 },
+  "link": {
+    "href": "https://nptel.ac.in/",
+    "tooltipString": "see_certification"
+  },
+  "locales": {
+    "en": {
+      "title": "Joy of Computing using {{Python}}",
+      "text": "Completed a 12-week NPTEL course in 2024 focused on building logic, solving problems using Python, and understanding the joy behind computational thinking."
+    },
+    "es": {
+      "title": "La Alegría de Programar en {{Python}}",
+      "text": "Completé un curso de 12 semanas de NPTEL en 2024 centrado en la lógica de programación, resolución de problemas y pensamiento computacional con Python."
+    },
+    "fr": {
+      "title": "La Joie de Programmer en {{Python}}",
+      "text": "Cours NPTEL de 12 semaines terminé en 2024, axé sur la résolution de problèmes, la logique et la pensée computationnelle avec Python."
+    },
+    "ko": {
+      "title": "{{Python}}으로 컴퓨팅의 즐거움",
+      "text": "2024년 12주 과정의 NPTEL 수료. Python을 사용한 문제 해결, 논리적 사고 및 계산적 사고의 즐거움을 배움."
+    }
+  }
+},
+
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-java",
-                        "faColors": {"bg": "#007396", "fill": "#EEE"}
-                    },
-                    "dates": {
-                        "start": "05/05/2022",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "see_certification", "href": "https://www.oracle.com/" }
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "**Oracle**",
-                            "text": "Certified Java Developer"
-                        },
-                        "es": {
-                            "text": "Desarrollador Java Certificado"
-                        },
-                        "fr": {
-                            "text": "Développeur Java Certifié"
-                        },
-                        "ko": {
-                            "text": "인증된 자바 개발자"
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-database",
-                        "faColors": {"bg": "#47A248", "fill": "#EEE"}
-                    },
-                    "dates": {
-                        "start": "08/15/2023",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "see_certification", "href": "https://www.mongodb.com/" }
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "**MongoDB** University",
-                            "text": "MongoDB Certified Developer"
-                        },
-                        "es": {
-                            "text": "Desarrollador Certificado en MongoDB"
-                        },
-                        "fr": {
-                            "text": "Développeur Certifié MongoDB"
-                        },
-                        "ko": {
-                            "text": "몽고디비 인증 개발자"
-                        }
-                    }
-                }
+  "id": 3,
+  "img": "",
+  "faIcon": "fa-solid fa-database",
+  "faIconColors": { "bg": "#0066CC", "fill": "#fff" },
+  "date": { "year": 2025, "month": 6 },
+  "link": {
+    "href": "https://www.coursera.org/learn/database-structures-management-mysql",
+    "tooltipString": "see_certification"
+  },
+  "locales": {
+    "en": {
+      "title": "Meta: Database Structures and Management with {{MySQL}}",
+      "text": "Completed a Coursera certification offered by Meta in 2025. Gained expertise in relational databases, data modeling, SQL queries, and database management using MySQL."
+    },
+    "es": {
+      "title": "Meta: Estructuras y Gestión de Bases de Datos con {{MySQL}}",
+      "text": "Certificación completada en Coursera ofrecida por Meta en 2025. Aprendí sobre bases de datos relacionales, modelado de datos, consultas SQL y gestión de bases de datos con MySQL."
+    },
+    "fr": {
+      "title": "Meta : Structures et gestion de base de données avec {{MySQL}}",
+      "text": "Certificat Coursera complété en 2025 proposé par Meta. Acquis des compétences sur les bases de données relationnelles, le SQL, et la gestion de MySQL."
+    },
+    "ko": {
+      "title": "Meta: {{MySQL}} 데이터베이스 구조 및 관리",
+      "text": "Meta에서 제공하는 Coursera 과정(2025년 완료)을 통해 관계형 데이터베이스, 데이터 모델링, SQL 쿼리 및 MySQL 기반 데이터베이스 관리를 학습했습니다."
+    }
+  }
+}
             ]
         },
 
         {
-            "id": "awards",
-            "component": "ArticleThread",
-            "config": {},
+    "id": 2,
+    "component": "ArticleThread",
+    "locales": {
+        "en": { "title": "Extra-Curricular Achievements" },
+        "es": { "title": "Logros Extra-Curriculares" },
+        "fr": { "title": "Réalisations Extra-Scolaires" },
+        "ko": { "title": "교과 외 활동 성과" }
+    },
+    "settings": {
+        "max_rows_collapse_threshold": 3,
+        "order_items_by": "date",
+        "order_items_sort": "desc"
+    },
+    "items": [
+        {
+            "id": 1,
             "locales": {
-                "en": { "title": "Awards" },
-                "es": { "title": "Premios" },
-                "fr": { "title": "Récompenses" },
-                "ko": { "title": "수상 내역" }
-            },
-
-            "items": [
-                {
-                    "dates": {
-                        "start": "09/01/2019",
-                        "end": null
-                    },
-                    "links": [],
-                    "locales": {
-                        "en": {
-                            "title": "**Best Final Year Project** – Backend Optimization",
-                            "info": "MIT",
-                            "text": "Recognized for innovative work on optimizing backend systems for cloud environments, achieving significant performance improvements."
-                        },
-                        "es": {
-                            "title": "**Mejor Proyecto de Fin de Carrera** – Optimización de Backend",
-                            "info": "MIT",
-                            "text": "Reconocido por su trabajo innovador en la optimización de sistemas backend para entornos en la nube, logrando importantes mejoras en el rendimiento."
-                        },
-                        "fr": {
-                            "title": "**Meilleur Projet de Fin d'Études** – Optimisation du Backend",
-                            "info": "MIT",
-                            "text": "Reconnu pour son travail innovant sur l'optimisation des systèmes backend pour les environnements cloud, avec des améliorations significatives des performances."
-                        },
-                        "ko": {
-                            "title": "**최우수 졸업 프로젝트** – 백엔드 최적화",
-                            "info": "MIT",
-                            "text": "클라우드 환경에서 백엔드 시스템을 최적화한 혁신적인 작업으로 성능을 크게 개선한 것으로 인정받았습니다."
-                        }
-                    }
+                "en": {
+                    "title": "Chess Competitions",
+                    "text": "Notable achievements in chess:",
+                    "list": [
+                        "Second Runner-up - Zonal Championship (2024)",
+                        "Participant - Zonal Level (2020, 2019)",
+                        "Winner - Zonal Championship (2018)",
+                        "Winner & Second Runner-up - School Level Sports Day (2018-2020)"
+                    ]
                 },
-                {
-                    "dates": {
-                        "start": "05/01/2020",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "more_info", "href": "https://github.com/torvalds/linux" }
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "**Top Contributor** – Open Source Backend Project",
-                            "info": "GitHub",
-                            "text": "Awarded for contributing to an open-source backend framework that improved scalability and reduced latency."
-                        },
-                        "es": {
-                            "title": "**Contribuidor Destacado** – Proyecto de Backend de Código Abierto",
-                            "info": "GitHub",
-                            "text": "Premiado por su contribución a un framework de backend de código abierto que mejoró la escalabilidad y redujo la latencia."
-                        },
-                        "fr": {
-                            "title": "**Meilleur Contributeur** – Projet Backend Open Source",
-                            "info": "GitHub",
-                            "text": "Récompensé pour sa contribution à un cadre backend open source qui a amélioré l'évolutivité et réduit la latence."
-                        },
-                        "ko": {
-                            "title": "**최우수 기여자** – 오픈 소스 백엔드 프로젝트",
-                            "info": "GitHub",
-                            "text": "확장성을 개선하고 지연 시간을 줄인 오픈 소스 백엔드 프레임워크에 기여한 공로로 수상했습니다."
-                        }
-                    }
+                "es": {
+                    "title": "Competiciones de Ajedrez",
+                    "text": "Logros notables en ajedrez:",
+                    "list": [
+                        "Tercer lugar - Campeonato Zonal (2024)",
+                        "Participante - Nivel Zonal (2020, 2019)",
+                        "Ganador - Campeonato Zonal (2018)",
+                        "Ganador y Tercer lugar - Día Deportivo Escolar (2018-2020)"
+                    ]
                 },
-                {
-                    "dates": {
-                        "start": "11/01/2021",
-                        "end": null
-                    },
-                    "links": [],
-                    "locales": {
-                        "en": {
-                            "title": "**1st Place** – Global API Design Challenge",
-                            "info": "API Developer Conference",
-                            "text": "Secured 1st place for developing a robust API with advanced features like real-time data processing and seamless integration."
-                        },
-                        "es": {
-                            "title": "**1er Lugar** – Desafío Global de Diseño de API",
-                            "info": "Conferencia de Desarrolladores de API",
-                            "text": "Obtuvo el 1er lugar por desarrollar una API robusta con funciones avanzadas como procesamiento de datos en tiempo real e integración sin problemas."
-                        },
-                        "fr": {
-                            "title": "**1ère Place** – Défi Mondial de Conception d'API",
-                            "info": "Conférence des Développeurs d'API",
-                            "text": "A remporté la 1ère place pour avoir développé une API robuste avec des fonctionnalités avancées comme le traitement des données en temps réel et l'intégration transparente."
-                        },
-                        "ko": {
-                            "title": "**1위** – 글로벌 API 디자인 챌린지",
-                            "info": "API 개발자 컨퍼런스",
-                            "text": "실시간 데이터 처리 및 원활한 통합과 같은 고급 기능을 갖춘 강력한 API를 개발하여 1위를 차지했습니다."
-                        }
-                    }
+                "fr": {
+                    "title": "Compétitions d'Échecs",
+                    "text": "Réalisations notables aux échecs :",
+                    "list": [
+                        "Troisième place - Championnat Zonal (2024)",
+                        "Participant - Niveau Zonal (2020, 2019)",
+                        "Vainqueur - Championnat Zonal (2018)",
+                        "Vainqueur et Troisième place - Journée Sportive Scolaire (2018-2020)"
+                    ]
                 },
-                {
-                    "dates": {
-                        "start": "06/01/2023",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "more_info", "href": "https://google.com" }
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "**Best Backend Architecture** – Tech Innovator Awards",
-                            "info": "Tech Innovator Magazine",
-                            "text": "Recognized for designing an efficient and scalable backend architecture that improved system performance and reliability."
-                        },
-                        "es": {
-                            "title": "**Mejor Arquitectura de Backend** – Premios a los Innovadores Tecnológicos",
-                            "info": "Revista Tech Innovator",
-                            "text": "Reconocido por diseñar una arquitectura de backend eficiente y escalable que mejoró el rendimiento y la confiabilidad del sistema."
-                        },
-                        "fr": {
-                            "title": "**Meilleure Architecture Backend** – Prix de l'Innovateur Technologique",
-                            "info": "Magazine Tech Innovator",
-                            "text": "Reconnu pour avoir conçu une architecture backend efficace et évolutive qui a amélioré les performances et la fiabilité du système."
-                        },
-                        "ko": {
-                            "title": "**최우수 백엔드 아키텍처** – 기술 혁신자 어워드",
-                            "info": "Tech Innovator 매거진",
-                            "text": "시스템 성능과 안정성을 개선한 효율적이고 확장 가능한 백엔드 아키텍처 설계로 인정받았습니다."
-                        }
-                    }
+                "ko": {
+                    "title": "체스 대회",
+                    "text": "체스에서 주목할만한 성과:",
+                    "list": [
+                        "3위 - 지역 챔피언십 (2024)",
+                        "참가자 - 지역 대회 (2020, 2019)",
+                        "우승자 - 지역 챔피언십 (2018)",
+                        "우승자 및 3위 - 학교 체육대회 (2018-2020)"
+                    ]
                 }
-            ]
+            }
+        },
+        {
+            "id": 2,
+            "locales": {
+                "en": {
+                    "title": "Oratory Competitions",
+                    "text": "Achievements in public speaking:",
+                    "list": [
+                        "Multiple school-level Tamil oratory competition wins",
+                        "English elocution competition winner",
+                        "District-level Tamil oratory participant"
+                    ]
+                },
+                "es": {
+                    "title": "Concursos de Oratoria",
+                    "text": "Logros en oratoria:",
+                    "list": [
+                        "Múltiples victorias en concursos de oratoria Tamil a nivel escolar",
+                        "Ganador de concurso de elocución en inglés",
+                        "Participante en oratoria Tamil a nivel distrital"
+                    ]
+                },
+                "fr": {
+                    "title": "Concours d'Art Oratoire",
+                    "text": "Réussites en prise de parole :",
+                    "list": [
+                        "Plusieurs victoires en concours d'oratoire Tamil niveau scolaire",
+                        "Vainqueur de concours d'élocution anglaise",
+                        "Participant à l'oratoire Tamil niveau district"
+                    ]
+                },
+                "ko": {
+                    "title": "웅변 대회",
+                    "text": "공개 연설 성과:",
+                    "list": [
+                        "학교 수준 타밀어 연설 대회 다수 우승",
+                        "영어 낭독 대회 우승자",
+                        "지역 수준 타밀어 연설 대회 참가자"
+                    ]
+                }
+            }
+        },
+        {
+            "id": 3,
+            "locales": {
+                "en": {
+                    "title": "Academic Distinction",
+                    "text": "Notable academic accomplishments:",
+                    "list": [
+                        "Top 10 in School - SSLC Examinations",
+                        "Consistent Academic Performer"
+                    ]
+                },
+                "es": {
+                    "title": "Distinción Académica",
+                    "text": "Logros académicos notables:",
+                    "list": [
+                        "Top 10 en la Escuela - Exámenes SSLC",
+                        "Rendimiento Académico Consistente"
+                    ]
+                },
+                "fr": {
+                    "title": "Distinction Académique",
+                    "text": "Réalisations académiques notables :",
+                    "list": [
+                        "Top 10 de l'École - Examens SSLC",
+                        "Performance Académique Constante"
+                    ]
+                },
+                "ko": {
+                    "title": "학업 우수",
+                    "text": "주목할만한 학업 성취:",
+                    "list": [
+                        "학교 상위 10위 - SSLC 시험",
+                        "꾸준한 학업 성적"
+                    ]
+                }
+            }
         }
+    ]
+}
     ]
 }

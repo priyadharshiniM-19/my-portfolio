@@ -1,607 +1,416 @@
 {
-    "locales": {
-        "en": {
-            "title": "Skills",
-            "title_long_prefix": "Explore",
-            "title_long": "My **Skill Set**"
-        },
-
-        "es": {
-            "title": "Habilidades",
-            "title_long_prefix": "Explora",
-            "title_long": "Mis **Habilidades**"
-        },
-
-        "fr": {
-            "title": "Capacités",
-            "title_long_prefix": "Explorez",
-            "title_long": "Mes **Compétences**"
-        },
-
-        "ko": {
-            "title": "스킬",
-            "title_long_prefix": "이것은 내",
-            "title_long": "**스킬**입니다"
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Skills",
+                "title_short_nav": "Skills",
+                "title_long_prefix": "Explore",
+                "title_long": "My {{Skill Set}}"
+            },
+            "es": {
+                "title_short": "Habilidades",
+                "title_short_nav": "Habilidades",
+                "title_long_prefix": "Explora",
+                "title_long": "Mis {{Habilidades}}"
+            },
+            "fr": {
+                "title_short": "Capacités",
+                "title_short_nav": "Capacités",
+                "title_long_prefix": "Explorez",
+                "title_long": "Mes {{Compétences}}"
+            },
+            "ko": {
+                "title_short": "스킬",
+                "title_short_nav": "스킬",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{스킬}}입니다"
+            }
         }
     },
 
     "articles": [
         {
-            "id": "capabilities",
+            "id": 1,
             "component": "ArticleCards",
-            "config": {},
             "locales": {},
-
-            "items": [
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-table-columns",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Website** design",
-                            "text": "I can bring your best ideas into life!"
-                        },
-                        "es": {
-                            "title": "Diseño de **sitios web**",
-                            "text": "¡Puedo hacer realidad tus mejores ideas!"
-                        },
-                        "fr": {
-                            "title": "Conception de **sites web**",
-                            "text": "Je peux donner vie à vos meilleures idées !"
-                        },
-                        "ko": {
-                            "title": "**웹사이트** 디자인",
-                            "text": "당신의 최고의 아이디어를 실현시킬 수 있습니다!"
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-database",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Database** management",
-                            "text": "I can handle your data effectively!"
-                        },
-                        "es": {
-                            "title": "Gestión de **bases de datos**",
-                            "text": "¡Puedo gestionar tus datos de manera eficaz!"
-                        },
-                        "fr": {
-                            "title": "Gestion de **bases de données**",
-                            "text": "Je peux gérer vos données efficacement !"
-                        },
-                        "ko": {
-                            "title": "**데이터베이스** 관리",
-                            "text": "데이터를 효과적으로 처리할 수 있습니다!"
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-mobile-screen-button",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**App** creation",
-                            "text": "I can make creative and innovative apps!"
-                        },
-                        "es": {
-                            "title": "Creación de **aplicaciones**",
-                            "text": "¡Puedo crear aplicaciones creativas e innovadoras!"
-                        },
-                        "fr": {
-                            "title": "Création d'**applications**",
-                            "text": "Je peux créer des applications créatives et innovantes !"
-                        },
-                        "ko": {
-                            "title": "**앱** 제작",
-                            "text": "창의적이고 혁신적인 앱을 만들 수 있습니다!"
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-window-restore",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "REST **APIs**",
-                            "text": "I can build API services!"
-                        },
-                        "es": {
-                            "title": "APIs **REST**",
-                            "text": "¡Puedo crear servicios API!"
-                        },
-                        "fr": {
-                            "title": "APIs **REST**",
-                            "text": "Je peux créer des services API !"
-                        },
-                        "ko": {
-                            "title": "REST **API**",
-                            "text": "API 서비스를 구축할 수 있습니다!"
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-lock",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Information **Security**",
-                            "text": "Security is my middle name!"
-                        },
-                        "es": {
-                            "title": "**Seguridad** de la información",
-                            "text": "¡La seguridad es mi segundo nombre!"
-                        },
-                        "fr": {
-                            "title": "**Sécurité** de l'information",
-                            "text": "La sécurité est mon deuxième prénom !"
-                        },
-                        "ko": {
-                            "title": "정보 **보안**",
-                            "text": "보안은 제 전문 분야입니다!"
-                        }
-                    }
-                }
-            ]
-
-        },
-
-        {
-            "id": "backend_programming",
-            "component": "ArticleList",
-            "config": {},
-            "locales": {
-                "en": {"title": "Backend"}
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
             },
-
             "items": [
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-node-js",
-                        "faColors": {"bg": "#339933", "fill": "#EEE"}
-                    },
-                    "value": 95,
-                    "dates": {
-                        "start": "01/15/2019"
-                    },
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-table-columns",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
                     "locales": {
                         "en": {
-                            "title": "Node.js",
-                            "info": null
+                            "title": "{{Website}} design",
+                            "text": "I can bring your best ideas into life and make them a reality!"
+                        },
+                        "es": {
+                            "title": "{{Diseño}} de websites",
+                            "text": "¡Puedo hacer realidad tus mejores ideas y hacerlas reales!"
+                        },
+                        "fr": {
+                            "title": "{{Conception}} de websites",
+                            "text": "Je peux donner vie à vos meilleures idées et les rendre réelles !"
+                        },
+                        "ko": {
+                            "title": "{{웹사이트}} 디자인",
+                            "text": "당신의 최고의 아이디어를 실현하고 현실로 만들 수 있습니다!"
                         }
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-java",
-                        "faColors": {"bg": "#007396", "fill": "#EEE"}
-                    },
-                    "value": 90,
-                    "dates": {
-                        "start": "03/10/2019"
-                    },
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
                     "locales": {
                         "en": {
-                            "title": "Java 11+",
-                            "info": null
+                            "title": "{{Database}} management",
+                            "text": "I can handle your data effectively and efficiently!"
+                        },
+                        "es": {
+                            "title": "Gestión de {{bases de datos}}",
+                            "text": "¡Puedo manejar sus datos de manera efectiva y eficiente!"
+                        },
+                        "fr": {
+                            "title": "Gestion de {{bases de données}}",
+                            "text": "Je peux gérer vos données de manière efficace et efficiente !"
+                        },
+                        "ko": {
+                            "title": "{{데이터베이스}} 관리",
+                            "text": "데이터를 효과적이고 효율적으로 처리할 수 있습니다. 최고의 관행을 사용하여 데이터베이스를 관리합니다!"
                         }
                     }
                 },
                 {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-python",
-                        "faColors": {"bg": "#306998", "fill": "#EEE"}
-                    },
-                    "value": 85,
-                    "dates": {
-                        "start": "06/20/2020"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Python 3.x",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-gem",
-                        "faColors": {"bg": "#CC0000", "fill": "#EEE"}
-                    },
-                    "value": 80,
-                    "dates": {
-                        "start": "08/30/2020"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Ruby on Rails",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-database",
-                        "faColors": {"bg": "#4479A1", "fill": "#EEE"}
-                    },
-                    "value": 90,
-                    "dates": {
-                        "start": "10/10/2020"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "MySQL",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-docker",
-                        "faColors": {"bg": "#2496ED", "fill": "#EEE"}
-                    },
-                    "value": 60,
-                    "dates": {
-                        "start": "04/15/2021"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Docker",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-php",
-                        "faColors": {"bg": "#FFD700", "fill": "#111"}
-                    },
-                    "value": 100,
-                    "dates": {
-                        "start": "09/01/2018"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "PHP 8.0+",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-life-ring",
-                        "faColors": {"bg": "#326CE5", "fill": "#EEE"}
-                    },
-                    "value": 80,
-                    "dates": {
-                        "start": "07/10/2021"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Kubernetes",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-server",
-                        "faColors": {"bg": "#47A248", "fill": "#EEE"}
-                    },
-                    "value": 50,
-                    "dates": {
-                        "start": "05/20/2024"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "MongoDB",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-git",
-                        "faColors": {"bg": "#F05032", "fill": "#111"}
-                    },
-                    "value": 95,
-                    "dates": {
-                        "start": "01/01/2018"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Git",
-                            "info": null
-                        }
-                    }
-                }
-            ]
+    "id": 3,
+    "img": "",
+    "faIcon": "fa-solid fa-keyboard",
+    "faIconColors": {"bg": "", "fill": ""},
+    "date": {"year": null, "month": null},
+    "link": {"href": "", "tooltipString": ""},
+    "locales": {
+        "en": {
+            "title": "AI {{Prompting}}",
+            "text": "Crafting precise prompts to unlock AI's full potential for creative and technical solutions."
         },
-
-        {
-            "id": "front_end_programming",
-            "component": "ArticleList",
-            "config": {},
-            "locales": {
-                "en": {"title": "Frontend"}
-            },
-
-            "items": [
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-html5",
-                        "faColors": {"bg": "#E34F26", "fill": "#EEE"}
-                    },
-                    "value": 100,
-                    "dates": {
-                        "start": "09/01/2018"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "HTML5",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-css3",
-                        "faColors": {"bg": "#1572B6", "fill": "#EEE"}
-                    },
-                    "value": 65,
-                    "dates": {
-                        "start": "01/15/2019"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "CSS3",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-js",
-                        "faColors": {"bg": "#F7DF1E", "fill": "#111"}
-                    },
-                    "value": 90,
-                    "dates": {
-                        "start": "03/10/2020"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "JavaScript ES6+",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-react",
-                        "faColors": {"bg": "#61DAFB", "fill": "#111"}
-                    },
-                    "value": 95,
-                    "dates": {
-                        "start": "06/20/2020"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "React",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-vuejs",
-                        "faColors": {"bg": "#4FC08D", "fill": "#111"}
-                    },
-                    "value": 40,
-                    "dates": {
-                        "start": "08/30/2023"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Vue.js",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-bootstrap",
-                        "faColors": {"bg": "#7952B3", "fill": "#EEE"}
-                    },
-                    "value": 90,
-                    "dates": {
-                        "start": "02/10/2021"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Bootstrap",
-                            "info": null
-                        }
-                    }
-                }
-            ]
+        "es": {
+            "title": "{{Prompting}} para IA",
+            "text": "Creando prompts precisos para aprovechar al máximo la IA en soluciones creativas y técnicas."
         },
-
-        {
-            "id": "languages",
-            "component": "ArticleList",
-            "config": {},
-            "locales": {
-                "en": { "title": "Languages" },
-                "es": { "title": "Idiomas" },
-                "fr": { "title": "Langues" },
-                "ko": { "title": "언어" }
-            },
-
-            "items": [
-                {
-                    "icon": {
-                        "img": "images/flags/en.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "value": null,
-                    "dates": { "start": null },
-                    "locales": {
-                        "en": {
-                            "title": "English",
-                            "info": "Native speaker with excellent communication and writing skills.",
-                            "tags": ["Native"]
-                        },
-                        "es": {
-                            "title": "Inglés",
-                            "info": "Hablante nativo con excelentes habilidades de comunicación y escritura.",
-                            "tags": ["Nativo"]
-                        },
-                        "fr": {
-                            "title": "Anglais",
-                            "info": "Locuteur natif avec d'excellentes compétences en communication et en rédaction.",
-                            "tags": ["Natif"]
-                        },
-                        "ko": {
-                            "title": "영어",
-                            "info": "모국어 수준의 의사소통 및 글쓰기 능력을 보유.",
-                            "tags": ["모국어"]
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": "images/flags/fr.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "value": null,
-                    "dates": { "start": null },
-                    "locales": {
-                        "en": {
-                            "title": "French",
-                            "info": "Fluent in both spoken and written French; confident in professional communication.",
-                            "tags": ["Fluent"]
-                        },
-                        "es": {
-                            "title": "Francés",
-                            "info": "Fluido en francés hablado y escrito; seguro en la comunicación profesional.",
-                            "tags": ["Fluido"]
-                        },
-                        "fr": {
-                            "title": "Français",
-                            "info": "Fluent à l'oral et à l'écrit; confiant dans la communication professionnelle.",
-                            "tags": ["Courant"]
-                        },
-                        "ko": {
-                            "title": "프랑스어",
-                            "info": "구어 및 문어에 유창하며, 전문적인 소통에 자신감이 있음.",
-                            "tags": ["유창"]
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": "images/flags/vn.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "value": null,
-                    "dates": { "start": null },
-                    "locales": {
-                        "en": {
-                            "title": "Vietnamese",
-                            "info": "Intermediate proficiency in Vietnamese language; can hold conversations and understand written text.",
-                            "tags": ["Intermediate"]
-                        },
-                        "es": {
-                            "title": "Vietnamita",
-                            "info": "Competencia intermedia en el idioma vietnamita; puede mantener conversaciones y entender textos escritos.",
-                            "tags": ["Intermedio"]
-                        },
-                        "fr": {
-                            "title": "Vietnamien",
-                            "info": "Compétence intermédiaire en vietnamien; peut tenir des conversations et comprendre des textes écrits.",
-                            "tags": ["Intermédiaire"]
-                        },
-                        "ko": {
-                            "title": "베트남어",
-                            "info": "중간 수준의 베트남어 실력; 대화 가능 및 글을 이해할 수 있음.",
-                            "tags": ["중급"]
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": "images/flags/ko.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "value": null,
-                    "dates": { "start": null },
-                    "locales": {
-                        "en": {
-                            "title": "Korean",
-                            "info": "Basic understanding of Korean; learning and improving.",
-                            "tags": ["Basic"]
-                        },
-                        "es": {
-                            "title": "Coreano",
-                            "info": "Comprensión básica del coreano; aprendiendo y mejorando.",
-                            "tags": ["Básico"]
-                        },
-                        "fr": {
-                            "title": "Coréen",
-                            "info": "Compréhension de base du coréen; en apprentissage et amélioration.",
-                            "tags": ["Basique"]
-                        },
-                        "ko": {
-                            "title": "한국어",
-                            "info": "기초적인 한국어 이해; 배우는 중이며 향상 중.",
-                            "tags": ["기초"]
-                        }
-                    }
-                }
-            ]
+        "fr": {
+            "title": "{{Prompting}} IA",
+            "text": "Concevoir des prompts précis pour exploiter le potentiel de l'IA dans des solutions créatives et techniques."
+        },
+        "ko": {
+            "title": "AI {{프롬프팅}}",
+            "text": "창의적이고 기술적인 솔루션을 위해 AI의 전체 잠재력을 끌어내는 정교한 프롬프트 제작."
         }
+    }
+},
+{
+    "id": 4,
+    "img": "",
+    "faIcon": "fa-solid fa-code",
+    "faIconColors": {"bg": "", "fill": ""},
+    "date": {"year": null, "month": null},
+    "link": {"href": "", "tooltipString": ""},
+    "locales": {
+        "en": {
+            "title": "{{Front End}} Development",
+            "text": "Building responsive, accessible web interfaces with modern frameworks like React and Vue."
+        },
+        "es": {
+            "title": "Desarrollo {{Front End}}",
+            "text": "Construyendo interfaces web responsivas y accesibles con frameworks modernos como React y Vue."
+        },
+        "fr": {
+            "title": "Développement {{Front End}}",
+            "text": "Création d'interfaces web réactives et accessibles avec des frameworks modernes comme React et Vue."
+        },
+        "ko": {
+            "title": "{{프론트엔드}} 개발",
+            "text": "React와 Vue 같은 현대적인 프레임워크로 반응형 웹 인터페이스 구축."
+        }
+    }
+}          
+            ]
+        },
+
+{
+    "id": 2,
+    "component": "ArticleSkills",
+    "locales": {
+        "en": {"title": "Backend Stack"},
+        "es": {"title": "Stack de Backend"},
+        "fr": {"title": "Stack Backend"},
+        "ko": {"title": "백엔드 기술"}
+    },
+    "settings": {
+        "max_items_per_row": 3,
+        "round_icons": false
+    },
+    "items": [
+        {
+            "id": 1,
+            "faIcon": "fa-brands fa-java",
+            "faIconColors": {"bg": "", "fill": "#007396"},
+            "locales": {
+                "en": {
+                    "title": "Java (Intermediate)",
+                    "text": "NPTEL certified Java developer with strong OOP fundamentals."
+                },
+                "es": {
+                    "title": "Java (Intermedio)",
+                    "text": "Desarrollador Java certificado por NPTEL con sólidos fundamentos de POO."
+                },
+                "fr": {
+                    "title": "Java (Intermédiaire)",
+                    "text": "Développeur Java certifié NPTEL avec de solides bases POO."
+                },
+                "ko": {
+                    "title": "Java (중급)",
+                    "text": "NPTEL 인증 Java 개발자로 강력한 OOP 기초 지식 보유."
+                }
+            }
+        },
+        {
+            "id": 2,
+            "faIcon": "fa-brands fa-python",
+            "faIconColors": {"bg": "", "fill": "#306998"},
+            "locales": {
+                "en": {
+                    "title": "Python (Beginner)",
+                    "text": "NPTEL certified Python programmer with data analysis skills."
+                },
+                "es": {
+                    "title": "Python (Principiante)",
+                    "text": "Programador Python certificado por NPTEL con habilidades de análisis de datos."
+                },
+                "fr": {
+                    "title": "Python (Débutant)",
+                    "text": "Programmeur Python certifié NPTEL avec des compétences en analyse de données."
+                },
+                "ko": {
+                    "title": "Python (초급)",
+                    "text": "NPTEL 인증 Python 프로그래머로 데이터 분석 기술 보유."
+                }
+            }
+        },
+        {
+            "id": 3,
+            "faIcon": "fa-solid fa-database",
+            "faIconColors": {"bg": "", "fill": "#4479A1"},
+            "locales": {
+                "en": {
+                    "title": "MySQL (Intermediate)",
+                    "text": "Meta (Coursera) certified database specialist."
+                },
+                "es": {
+                    "title": "MySQL (Intermedio)",
+                    "text": "Especialista en bases de datos certificado por Meta (Coursera)."
+                },
+                "fr": {
+                    "title": "MySQL (Intermédiaire)",
+                    "text": "Spécialiste de bases de données certifié par Meta (Coursera)."
+                },
+                "ko": {
+                    "title": "MySQL (중급)",
+                    "text": "Meta(Coursera) 인증 데이터베이스 전문가."
+                }
+            }
+        },
+        {
+            "id": 4,
+            "faIcon": "fa-brands fa-git",
+            "faIconColors": {"bg": "", "fill": "#F05032"},
+            "locales": {
+                "en": {
+                    "title": "Git (Beginner)",
+                    "text": "Version control for collaborative development."
+                },
+                "es": {
+                    "title": "Git (Principiante)",
+                    "text": "Control de versiones para desarrollo colaborativo."
+                },
+                "fr": {
+                    "title": "Git (Débutant)",
+                    "text": "Contrôle de version pour le développement collaboratif."
+                },
+                "ko": {
+                    "title": "Git (초급)",
+                    "text": "협업 개발을 위한 버전 관리."
+                }
+            }
+        }
+    ]
+},
+
+        {
+    "id": 3,
+    "component": "ArticleSkills",
+    "locales": {
+        "en": {"title": "Frontend Essentials"},
+        "es": {"title": "Fundamentos Frontend"},
+        "fr": {"title": "Bases du Frontend"}, 
+        "ko": {"title": "프론트엔드 기본"}
+    },
+    "settings": {
+        "max_items_per_row": 3,
+        "round_icons": false
+    },
+    "items": [
+        {
+            "id": 1,
+            "faIcon": "fa-brands fa-html5",
+            "faIconColors": {"bg": "", "fill": "#E34F26"},
+            "locales": {
+                "en": {
+                    "title": "HTML5",
+                    "text": "Semantic markup for accessible web structures."
+                },
+                "es": {
+                    "title": "HTML5",
+                    "text": "Marcado semántico para estructuras web accesibles."
+                },
+                "fr": {
+                    "title": "HTML5",
+                    "text": "Balises sémantiques pour des structures web accessibles."
+                },
+                "ko": {
+                    "title": "HTML5",
+                    "text": "접근성 있는 웹 구조를 위한 시맨틱 마크업."
+                }
+            }
+        },
+        {
+            "id": 2,
+            "faIcon": "fa-brands fa-css3-alt",
+            "faIconColors": {"bg": "", "fill": "#1572B6"},
+            "locales": {
+                "en": {
+                    "title": "CSS3",
+                    "text": "Responsive designs with Flexbox and Grid."
+                },
+                "es": {
+                    "title": "CSS3",
+                    "text": "Diseños responsivos con Flexbox y Grid."
+                },
+                "fr": {
+                    "title": "CSS3",
+                    "text": "Designs responsives avec Flexbox et Grid."
+                },
+                "ko": {
+                    "title": "CSS3",
+                    "text": "Flexbox와 Grid를 사용한 반응형 디자인."
+                }
+            }
+        },
+        {
+            "id": 3,
+            "faIcon": "fa-brands fa-js",
+            "faIconColors": {"bg": "", "fill": "#F7DF1E"},
+            "locales": {
+                "en": {
+                    "title": "JavaScript",
+                    "text": "Interactive web functionality with ES6+ features."
+                },
+                "es": {
+                    "title": "JavaScript",
+                    "text": "Funcionalidad web interactiva con características ES6+."
+                },
+                "fr": {
+                    "title": "JavaScript",
+                    "text": "Fonctionnalités web interactives avec ES6+."
+                },
+                "ko": {
+                    "title": "JavaScript",
+                    "text": "ES6+ 기능을 사용한 대화형 웹 기능."
+                }
+            }
+        }
+    ]
+},
+
+        {
+    "id": 4,
+    "component": "ArticleSkills",
+    "locales": {
+        "en": {"title": "Languages"},
+        "es": {"title": "Idiomas"},
+        "fr": {"title": "Langues"},
+        "ko": {"title": "언어"}
+    },
+    "settings": {
+        "max_items_per_row": 2,
+        "round_icons": true
+    },
+    "items": [
+        {
+            "id": 1,
+            "img": "http://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_India.png",  
+            "faIcon": "",
+            "faIconColors": {"bg": "", "fill": ""},
+            "locales": {
+                "en": {
+                    "title": "Tamil",
+                    "text": "Native speaker with full professional proficiency.",
+                    "level": "Native"
+                },
+                "es": {
+                    "title": "Tamil",
+                    "text": "Hablante nativo con competencia profesional completa.",
+                    "level": "Nativo"
+                },
+                "fr": {
+                    "title": "Tamoul",
+                    "text": "Locuteur natif avec une compétence professionnelle complète.",
+                    "level": "Natif"
+                },
+                "ko": {
+                    "title": "타밀어",
+                    "text": "전문적인 수준의 원어민 화자.",
+                    "level": "원어민"
+                }
+            }
+        },
+        {
+            "id": 2,
+            "img": "images/flags/en-us.png",
+            "faIcon": "",
+            "faIconColors": {"bg": "", "fill": ""},
+            "locales": {
+                "en": {
+                    "title": "English",
+                    "text": "Professional working proficiency in speaking and writing.",
+                    "level": "Fluent"
+                },
+                "es": {
+                    "title": "Inglés",
+                    "text": "Competencia profesional en habla y escritura.",
+                    "level": "Fluido"
+                },
+                "fr": {
+                    "title": "Anglais",
+                    "text": "Compétence professionnelle en expression orale et écrite.",
+                    "level": "Courant"
+                },
+                "ko": {
+                    "title": "영어",
+                    "text": "말하기와 쓰기에 능숙한 전문적인 수준.",
+                    "level": "유창함"
+                }
+            }
+        }
+    ]
+}
     ]
 }

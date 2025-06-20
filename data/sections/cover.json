@@ -1,424 +1,408 @@
 {
+  "title": {
     "locales": {
-        "en": {
-            "title": "Welcome!",
-            "title_menu": "About me",
-            "title_long_prefix": "Hello...",
-            "title_long": "I'm **Mark Choi!**"
+      "en": {
+        "title_short": "Welcome!",
+        "title_short_nav": "About me",
+        "title_long_prefix": "Hello...",
+        "title_long": "I'm {{Priyadharshini M!}}"
+      },
+      "es": {
+        "title_short": "¡Saludos!",
+        "title_short_nav": "Sobre mí",
+        "title_long_prefix": "Hola...",
+        "title_long": "Soy {{Priyadharshini M!}}"
+      },
+      "fr": {
+        "title_short": "Salut !",
+        "title_short_nav": "À propos",
+        "title_long_prefix": "Salut...",
+        "title_long": "Je suis {{Priyadharshini M !}}"
+      },
+      "ko": {
+        "title_short": "환영합니다!",
+        "title_short_nav": "소개",
+        "title_long_prefix": "안녕하세요...",
+        "title_long": "저는 {{최민석}}입니다!"
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleInlineList",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc",
+        "display_as_list_if_width_is_lower_than": 380
+      },
+      "items": [
+        {
+          "id": 1,
+          "label": "India",
+          "link": { "href": "", "tooltipString": "" },
+          "faIcon": "fa-regular fa-address-book"
         },
-
-        "es": {
-            "title": "¡Saludos!",
-            "title_menu": "Sobre mí",
-            "title_long_prefix": "Hola...",
-            "title_long": "Soy **Mark Choi!**"
+        {
+          "id": 2,
+          "label": "mpriyadharshini9805@gmail.com",
+          "link": { "href": "mailto:mpriyadharshini9805@gmail.com", "tooltipString": "email_me" },
+          "faIcon": "fa-regular fa-envelope"
         },
-
-        "fr": {
-            "title": "Salut !",
-            "title_menu": "À propos",
-            "title_long_prefix": "Salut...",
-            "title_long": "Je suis **Mark Choi!**"
-        },
-
-        "ko": {
-            "title": "환영합니다!",
-            "title_menu": "소개",
-            "title_long_prefix": "안녕하세요...",
-            "title_long": "저는 **Mark Choi** 입니다!"
+        {
+          "id": 3,
+          "label": "@priyadharshini",
+          "link": { "href": "https://github.com/ryanbalieiro", "tooltipString": "see_on_github" },
+          "faIcon": "fa-brands fa-github"
         }
+      ]
     },
-
-    "articles": [
+    {
+      "id": 2,
+      "component": "ArticleText",
+      "locales": {
+        "en": { "title": "{{A little bit}} about me..." },
+        "es": { "title": "{{Un poco}} sobre mí..." },
+        "fr": { "title": "{{Un peu}} à propos de moi..." },
+        "ko": { "title": "저에 {{대해 조금}}..." }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
         {
-            "id": "contact_list",
-            "component": "ArticleGrid",
-            "config": {
-                "ignorePaddingTop": true,
-                "format": "inline"
+          "id": 1,
+          "img": "images/pictures/about-texts-image-1.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "text": "<p>I'm a passionate {{Web Developer}} and {{Database Enthusiast}}, currently exploring technologies like Java, SQL, Python, and frontend development with HTML, CSS, and JavaScript.</p><p>I enjoy building structured, scalable solutions and continuously improving my skills through projects and learning opportunities.</p><p>I'm excited to contribute, learn, and grow through [[real-world collaboration!]]</p>"
             },
-            "locales": {
-                "en": {},
-                "es": {},
-                "fr": {},
-                "ko": {}
+            "es": {
+              "text": "<p>Soy un apasionado {{desarrollador web}} y {{entusiasta de bases de datos}}, actualmente explorando tecnologías como Java, SQL, Python y desarrollo frontend con HTML, CSS y JavaScript.</p><p>Disfruto creando soluciones estructuradas y escalables, y me esfuerzo por mejorar constantemente mis habilidades mediante proyectos y oportunidades de aprendizaje.</p><p>¡Estoy emocionado por contribuir, aprender y crecer a través de [[colaboraciones reales!]]</p>"
             },
-
-            "items": [
-                {
-                    "value": "Cupertino – CA",
-                    "links": [
-                        {"href": null}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-city",
-                        "faColors": {"bg": null, "fill": null}
-                    }
-                },
-                {
-                    "value": "mark.choi@dev.com",
-                    "links": [
-                        {"href": "mailto:mark.choi@dev.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-envelope",
-                        "faColors": {"bg": null, "fill": null}
-                    }
-                },
-                {
-                    "value": "@ryanbalieiro",
-                    "links": [
-                        {"href": "https://github.com/ryanbalieiro"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-github",
-                        "faColors": {"bg": null, "fill": null}
-                    }
-                }
-            ]
+            "fr": {
+              "text": "<p>Je suis un {{développeur web}} passionné et un {{enthousiaste des bases de données}}, explorant actuellement des technologies comme Java, SQL, Python, ainsi que le développement frontend avec HTML, CSS et JavaScript.</p><p>J'aime créer des solutions structurées et évolutives, et je cherche constamment à améliorer mes compétences grâce à des projets et à l'apprentissage.</p><p>Je suis enthousiaste à l'idée de contribuer, d'apprendre et de grandir grâce à [[des collaborations concrètes !]]</p>"
+            },
+            "ko": {
+              "text": "<p>저는 {{웹 개발자}}이자 {{데이터베이스 애호가}}로서 Java, SQL, Python, HTML, CSS, JavaScript와 같은 기술을 탐구하고 있습니다.</p><p>구조적이고 확장 가능한 솔루션을 구축하는 것을 즐기며, 프로젝트와 학습 기회를 통해 지속적으로 역량을 키우고 있습니다.</p><p>[[실제 협업]]을 통해 배우고 성장할 수 있기를 기대합니다!</p>"
+            }
+          }
         },
-
         {
-            "id": "short_description",
-            "component": "ArticleInfoBlock",
-            "config": {},
-            "locales": {
-                "en": {"title": "**A little bit** about me..."},
-                "es": {"title": "**Un poco** sobre mí..."},
-                "fr": {"title": "**Un peu** à propos de moi..."},
-                "ko": {"title": "저에 **대해 조금**..."}
-            },
-
-            "items": [
-                {
-                    "icon": {
-                        "img": "images/svg/logo.svg",
-                        "fa": null,
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"text": "<p>I’m a PHP developer with <b>over a decade</b> of experience, specializing in backend development with some frontend work as well. I also have hands-on experience with C++, C#, Go, and Python in production environments.</p><p>This diverse background gives me the flexibility to adapt to a wide range of project needs.</p><p>I look forward to collaborating <b>with you!</b>"},
-                        "es": {"text": "<p>Soy un desarrollador de PHP con <b>más de una década</b> de experiencia, especializado en desarrollo backend y con algo de experiencia en frontend. También tengo experiencia práctica en entornos de producción con C++, C#, Go y Python.</p><p>Este variado historial me permite adaptarme a una amplia gama de necesidades de proyectos.</p><p>¡Espero con interés colaborar <b>contigo!</b></p>"},
-                        "fr": {"text": "<p>Je suis développeur PHP avec <b>plus d'une décennie</b> d'expérience, spécialisé dans le développement backend avec un peu de travail en frontend également. J'ai aussi de l'expérience en production avec les technologies C++, C#, Go et Python.</p><p>Ce parcours diversifié me permet de m'adapter à une large gamme de besoins de projets.</p><p>Je suis impatient de collaborer <b>avec vous !</b></p>"},
-                        "ko": {"text": "<p>저는 백엔드 개발을 전문으로 하고, 프론트엔드 작업도 일부 수행해온 <b>10년 이상의</b> 경력을 가진 PHP 개발자입니다. 또한 C++, C#, Go, Python 스택을 사용한 프로덕션 경험도 있습니다.</p><p>이 다양한 배경 덕분에 프로젝트의 다양한 요구에 유연하게 대처할 수 있습니다.</p><p><b>당신과 협업</b>하기를 기대하고 있습니다!</p>"}
-                    }
-                }
-            ]
-        },
-
-        {
-            "id": "testimonials",
-            "component": "ArticleTestimonials",
-            "config": {},
-            "locales": {
-                "en": {"title": "Client **testimonials**"},
-                "es": {"title": "Testimonios de **clientes**"},
-                "fr": {"title": "Témoignages de **clients**"},
-                "ko": {"title": "**고객** 추천사"}
-            },
-
-            "items": [
-                {
-                    "value": "Anita Bath",
-                    "links": [
-                        {"href": "https://linkedin.com"}
-                    ],
-                    "icon": {
-                        "img": "images/pictures/person-1.png",
-                        "fa": "fa-solid fa-user",
-                        "faColors": null
-                    },
-                    "locales": {
-                        "en": {
-                            "info": "CEO at <b>SalesForce</b>",
-                            "text": "Working with Mark was a transformative experience. His programming skills and dedication not only improved our project but also inspired the entire team."
-                        },
-                        "es": {
-                            "info": "CEO en <b>SalesForce</b>",
-                            "text": "Trabajar con Mark fue una experiencia transformadora. Sus habilidades de programación y dedicación no solo mejoraron nuestro proyecto, sino que también inspiraron a todo el equipo."
-                        },
-                        "fr": {
-                            "info": "PDG de <b>SalesForce</b>",
-                            "text": "Travailler avec Mark a été une expérience transformative. Ses compétences en programmation et son dévouement ont non seulement amélioré notre projet, mais ont également inspiré toute l'équipe."
-                        },
-                        "ko": {
-                            "info": "세일즈포스  CEO",
-                            "text": "Mark와의 협업은 변화를 가져오는 경험이었습니다. 그의 프로그래밍 기술과 헌신은 우리 프로젝트를 개선할 뿐만 아니라 팀 전체에 영감을 주었습니다."
-                        }
-                    }
-                },
-
-                {
-                    "value": "Lou Natic",
-                    "links": [
-                        {"href": "https://github.com"}
-                    ],
-                    "icon": {
-                        "img": "images/pictures/person-3.png",
-                        "fa": null,
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "info": "Lead Developer at <b>GitHub</b>",
-                            "text": "Having Mark on our team was an invaluable asset. His deep programming insights and mentorship not only elevated our projects but also empowered us to tackle every challenge with confidence and creativity."
-                        },
-                        "es": {
-                            "info": "Desarrollador Principal en <b>GitHub </b>",
-                            "text": "Tener a Mark en nuestro equipo fue un activo invaluable. Sus profundas ideas sobre programación y su mentoría no solo elevaron nuestros proyectos, sino que también nos empoderaron para enfrentar cada desafío con confianza."
-                        },
-                        "fr": {
-                            "info": "Développeur Principal chez <b>GitHub </b>",
-                            "text": "Avoir Mark dans notre équipe a été un atout inestimable. Ses connaissances approfondies en programmation et son mentorat ont non seulement élevé nos projets, mais nous ont également permis de relever chaque défi avec confiance."
-                        },
-                        "ko": {
-                            "info": "<b>GitHub</b> 수석 개발자",
-                            "text": "우리 팀에 Mark가 있다는 것은 귀중한 자산이었습니다. 그의 깊은 프로그래밍 통찰력과 멘토링은 우리의 프로젝트를 높이고 모든 도전에 자신감과 창의성으로 대응할 수 있게 해주었습니다."
-                        }
-                    }
-                },
-
-                {
-                    "value": "Paige Turner",
-                    "links": [
-                        {"href": null}
-                    ],
-                    "icon": {
-                        "img": "images/pictures/person-2.png",
-                        "fa": null,
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "info": "Managing Director at <b>Dingga</b>",
-                            "text": "Collaborating with Mark was a game changer for our development process. His expertise and problem-solving abilities were invaluable to our success."
-                        },
-                        "es": {
-                            "info": "Directora General en <b>Dingga</b>",
-                            "text": "Colaborar con Mark fue un cambio de juego para nuestro proceso de desarrollo. Su experiencia y habilidades para resolver problemas fueron invaluables para nuestro éxito."
-                        },
-                        "fr": {
-                            "info": "Directrice Générale chez <b>Dingga</b>",
-                            "text": "Collaborer avec Mark a été un tournant pour notre processus de développement. Son expertise et ses capacités à résoudre des problèmes ont été inestimables pour notre succès."
-                        },
-                        "ko": {
-                            "info": "딩가 전무이사",
-                            "text": "Mark와의 협업은 우리의 개발 프로세스에 혁신을 가져왔습니다. 그의 전문성과 문제 해결 능력은 우리의 성공에 없어서는 안 될 요소였습니다."
-                        }
-                    }
-                },
-
-                {
-                    "value": "Chris P. Bacon",
-                    "links": [
-                        {"href": "https://dribbble.com"}
-                    ],
-                    "icon": {
-                        "img": "images/pictures/person-4.png",
-                        "fa": null,
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "info": "Creative Director at <b>Dribbble</b>",
-                            "text": "Mark's attention to detail and his innovative thinking brought a fresh perspective to our design process. He truly elevated our team's work and helped us deliver results beyond expectations."
-                        },
-                        "es": {
-                            "info": "Directora Creativa en <b>Dribbble</b>",
-                            "text": "La atención al detalle de Mark y su pensamiento innovador aportaron una nueva perspectiva a nuestro proceso de diseño. Realmente elevó el trabajo de nuestro equipo y nos ayudó a ofrecer resultados más allá de lo esperado."
-                        },
-                        "fr": {
-                            "info": "Directrice Créative chez <b>Dribbble</b>",
-                            "text": "L'attention aux détails de Mark et sa pensée innovante ont apporté une nouvelle perspective à notre processus de design. Il a véritablement élevé le travail de notre équipe et nous a aidés à livrer des résultats au-delà des attentes."
-                        },
-                        "ko": {
-                            "info": "<b>Dribbble</b> 크리에이티브 디렉터",
-                            "text": "Mark의 세부 사항에 대한 주의와 혁신적인 사고는 우리 디자인 프로세스에 신선한 관점을 제공했습니다. 그는 팀의 작업을 향상시키고 기대 이상의 결과를 제공하는 데 큰 도움을 주었습니다."
-                        }
-                    }
-                }
-            ]
-        },
-
-        {
-            "id": "interests",
-            "component": "ArticleGrid",
-            "config": {
-                "format": "grid"
-            },
-            "locales": {
-                "en": {"title": "Personal **interests**"},
-                "es": { "title": "Intereses **personales**" },
-                "fr": { "title": "Intérêts **personnels** " },
-                "ko": { "title": "개인 **관심사**" }
-            },
-
-            "items": [
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-guitar",
-                        "faColors": null
-                    },
-                    "value": null,
-                    "locales": {
-                        "en": {
-                            "title": "Playing guitar",
-                            "info": "Exploring different genres and improving my skills."
-                        },
-                        "es": {
-                            "title": "Tocar la guitarra",
-                            "info": "Explorando diferentes géneros y mejorando mis habilidades."
-                        },
-                        "fr": {
-                            "title": "Jouer de la guitare",
-                            "info": "Explorer différents genres et améliorer mes compétences."
-                        },
-                        "ko": {
-                            "title": "기타 연주",
-                            "info": "다양한 장르를 탐험하고 기술을 향상시키기."
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-video",
-                        "faColors": null
-                    },
-                    "value": null,
-                    "locales": {
-                        "en": {
-                            "title": "AI video editing",
-                            "info": "Learning to use AI tools to enhance my videos."
-                        },
-                        "es": {
-                            "title": "Edición de video con IA",
-                            "info": "Aprendiendo a usar herramientas de IA para mejorar mis videos."
-                        },
-                        "fr": {
-                            "title": "Montage vidéo avec IA",
-                            "info": "Apprendre à utiliser des outils d'IA pour améliorer mes vidéos."
-                        },
-                        "ko": {
-                            "title": "AI 영상 편집",
-                            "info": "AI 도구를 사용하여 내 영상을 향상시키는 방법 배우기."
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-paint-brush",
-                        "faColors": null
-                    },
-                    "value": null,
-                    "locales": {
-                        "en": {
-                            "title": "Illustration",
-                            "info": "Practicing digital art and exploring new styles."
-                        },
-                        "es": {
-                            "title": "Ilustración",
-                            "info": "Practicando arte digital y explorando nuevos estilos."
-                        },
-                        "fr": {
-                            "title": "Illustration",
-                            "info": "Pratiquer l'art numérique et explorer de nouveaux styles."
-                        },
-                        "ko": {
-                            "title": "일러스트레이션",
-                            "info": "디지털 아트를 연습하고 새로운 스타일을 탐험하기."
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-chart-line",
-                        "faColors": null
-                    },
-                    "value": null,
-                    "locales": {
-                        "en": {
-                            "title": "Investing",
-                            "info": "Learning the basics of stocks and personal finance."
-                        },
-                        "es": {
-                            "title": "Invertir",
-                            "info": "Aprendiendo los conceptos básicos de acciones y finanzas personales."
-                        },
-                        "fr": {
-                            "title": "Investir",
-                            "info": "Apprendre les bases des actions et des finances personnelles."
-                        },
-                        "ko": {
-                            "title": "투자",
-                            "info": "주식과 개인 재정의 기초 배우기."
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-pencil-alt",
-                        "faColors": null
-                    },
-                    "value": null,
-                    "locales": {
-                        "en": {
-                            "title": "UX design",
-                            "info": "Studying user experience principles."
-                        },
-                        "es": {
-                            "title": "Diseño UX",
-                            "info": "Estudiando los principios de la experiencia del usuario."
-                        },
-                        "fr": {
-                            "title": "Conception UX",
-                            "info": "Étudier les principes de l'expérience utilisateur."
-                        },
-                        "ko": {
-                            "title": "UX 디자인",
-                            "info": "사용자 경험 원칙을 공부하기."
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-camera-retro",
-                        "faColors": null
-                    },
-                    "value": null,
-                    "locales": {
-                        "en": {
-                            "title": "Photo editing",
-                            "info": "Enhancing photos through creative editing techniques."
-                        },
-                        "es": {
-                            "title": "Edición de fotos",
-                            "info": "Mejorando fotos a través de técnicas creativas de edición."
-                        },
-                        "fr": {
-                            "title": "Retouche photo",
-                            "info": "Améliorer des photos avec des techniques de montage créatives."
-                        },
-                        "ko": {
-                            "title": "사진 편집",
-                            "info": "창의적인 편집 기술을 통해 사진을 향상시키기."
-                        }
-                    }
-                }
-            ]
+          "id": 2,
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+  "en": {
+    "text": "<div style='text-align:center;'><img src='public/images/pictures/code-snippet.png' alt='Code snippet' class='code-image' style='max-width:25%; height:auto; border-radius:8px; display:block; margin:0 auto;'></div>"
+  },
+  "es": {
+    "text": "<div style='text-align:center;'><img src='public/images/pictures/code-snippet.png' alt='Fragmento de código' class='code-image' style='max-width:25%; height:auto; border-radius:8px; display:block; margin:0 auto;'></div>"
+  },
+  "fr": {
+    "text": "<div style='text-align:center;'><img src='public/images/pictures/code-snippet.png' alt='Extrait de code' class='code-image' style='max-width:25%; height:auto; border-radius:8px; display:block; margin:0 auto;'></div>"
+  },
+  "ko": {
+    "text": "<div style='text-align:center;'><img src='public/images/pictures/code-snippet.png' alt='코드 스니펫' class='code-image' style='max-width:25%; height:auto; border-radius:8px; display:block; margin:0 auto;'></div>"
+  }
+}
         }
-    ]
+      ]
+    },
+    {
+      "id": 3,
+      "component": "ArticleTestimonials",
+      "locales": {
+        "en": { "title": "Core Traits {{v1.0}}" },
+        "es": { "title": "Rasgos Fundamentales {{v1.0}}" },
+        "fr": { "title": "Traits Fondamentaux {{v1.0}}" },
+        "ko": { "title": "핵심 특성 {{v1.0}}" }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "label": "Collaborative",
+          "link": { "href": "", "tooltipString": "" },
+          "img": "https://tse1.mm.bing.net/th?id=OIP.C85PST0z4HOt-VBXTCKOhwHaE7&pid=Api&P=0&h=180",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "Team Player in Ideathons",
+              "text": "Worked closely with teammates during ideathon competitions, exchanging code, ideas, and sleepless nights to bring real-world ideas to life. [[Teamwork is my superpower!]]"
+            },
+            "es": {
+              "title": "Jugadora en equipo en Ideathons",
+              "text": "Trabajé codo a codo con compañeros durante concursos de ideación, compartiendo código, ideas y noches sin dormir para dar vida a ideas reales. [[¡El trabajo en equipo es mi superpoder!]]"
+            },
+            "fr": {
+              "title": "Esprit d'équipe en hackathons",
+              "text": "J'ai travaillé étroitement avec mon équipe pendant des ideathons, partageant du code, des idées et des nuits blanches pour concrétiser des projets réels. [[Le travail d'équipe est mon superpouvoir !]]"
+            },
+            "ko": {
+              "title": "아이디어톤에서의 협업가",
+              "text": "아이디어톤 대회에서 팀원들과 함께 코드, 아이디어, 밤샘을 공유하며 실제 아이디어를 실현했습니다. [[팀워크는 나의 슈퍼파워입니다!]]"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "label": "Problem Solver",
+          "link": { "href": "", "tooltipString": "" },
+          "img": "https://tse1.mm.bing.net/th?id=OIP.WeL5ItnbUXoivQPKlZinhQHaHf&pid=Api&P=0&h=180",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "Bug Hunter",
+              "text": "Whether it's debugging a tough SQL query or handling logic errors in Java, I enjoy breaking problems down and finding smart, efficient fixes. [[Every bug is a puzzle I want to solve.]]"
+            },
+            "es": {
+              "title": "Cazadora de bugs",
+              "text": "Ya sea depurar una consulta SQL difícil o resolver errores lógicos en Java, me encanta descomponer problemas y encontrar soluciones inteligentes. [[Cada bug es un rompecabezas para resolver.]]"
+            },
+            "fr": {
+              "title": "Chasseuse de bugs",
+              "text": "Qu'il s'agisse de corriger une requête SQL complexe ou de résoudre un bug Java, j'aime analyser les problèmes pour trouver des solutions efficaces. [[Chaque bug est une énigme à résoudre.]]"
+            },
+            "ko": {
+              "title": "버그 헌터",
+              "text": "복잡한 SQL 쿼리를 디버깅하거나 Java 논리 오류를 처리할 때, 문제를 분석하고 효율적인 해결책을 찾는 것을 즐깁니다. [[모든 버그는 내가 풀고 싶은 퍼즐입니다.]]"
+            }
+          }
+        },
+        {
+          "id": 3,
+          "label": "Critical Thinker",
+          "link": { "href": "", "tooltipString": "" },
+          "img": "https://tse1.mm.bing.net/th?id=OIP.079w3JAr_WZmpScbJPfT5gHaHa&pid=Api&P=0&h=180",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "The Idea Generator",
+              "text": "In almost every ideathon, I'm 'that person' who throws the first idea on the table—and usually, it sticks! I love analyzing real-world problems and turning them into creative project themes. [[If thinking outside the box were a game, I'd win it.]]"
+            },
+            "es": {
+              "title": "La generadora de ideas",
+              "text": "En casi todos los ideathons, soy 'esa persona' que lanza la primera idea—¡y suele funcionar! Me encanta analizar problemas reales y convertirlos en proyectos creativos. [[Si pensar fuera de la caja fuera un juego, lo ganaría.]]"
+            },
+            "fr": {
+              "title": "La génératrice d'idées",
+              "text": "Dans presque tous les ideathons, je suis celle qui propose la première idée—et elle est souvent retenue ! J'adore transformer les problèmes réels en projets créatifs. [[Si penser hors des sentiers battus était un sport, je serais championne.]]"
+            },
+            "ko": {
+              "title": "아이디어 제조기",
+              "text": "거의 모든 아이디어톤에서 제가 가장 먼저 아이디어를 던지는 사람입니다—그리고 대부분 채택됩니다! 현실 문제를 창의적인 프로젝트로 바꾸는 걸 좋아해요. [[틀을 깨는 사고가 게임이라면 전 우승자입니다.]]"
+            }
+          }
+        },
+        {
+          "id": 4,
+          "label": "Leader",
+          "link": { "href": "", "tooltipString": "" },
+          "img": "https://btcrecruitment.com/wp-content/uploads/2021/06/Practicing_the_art_of_leadership.png",
+          "faIcon": "fa-solid fa-flag",
+          "faIconColors": { "bg": "#fff0f0", "fill": "#e63946" },
+          "locales": {
+            "en": {
+              "title": "Captain & Project Lead",
+              "title_short": "Leader",
+              "text": "Led my university basketball team to finals + guided ideathon teams from concept to pitch. [[Leadership is about lifting others while driving results.]]"
+            },
+            "es": {
+              "title": "Capitán y Líder de Proyectos",
+              "title_short": "Líder",
+              "text": "Lideré mi equipo de baloncesto universitario hasta las finales y guié equipos de ideatones desde el concepto hasta la presentación. [[Liderar es elevar a otros mientras se logran resultados.]]"
+            },
+            "fr": {
+              "title": "Capitaine & Chef de Projet",
+              "title_short": "Leader",
+              "text": "J'ai mené mon équipe de basket universitaire en finale et dirigé des équipes d'ideathon du concept au pitch. [[Le leadership, c'est inspirer tout en obtenant des résultats.]]"
+            },
+            "ko": {
+              "title": "주장 및 프로젝트 리더",
+              "title_short": "리더",
+              "text": "대학 농구 팀을 결승까지 이끌었고, 아이디어톤 팀을 기획부터 발표까지 리드했습니다. [[리더십은 결과를 내면서 동료를 성장시키는 것입니다.]]"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "component": "ArticleInfoList",
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "locales": {
+        "en": { "title": "Side Modules {{v1.0}}" },
+        "es": { "title": "Módulos Auxiliares {{v1.0}}" },
+        "fr": { "title": "Modules Secondaires {{v1.0}}" },
+        "ko": { "title": "보조 모듈 {{v1.0}}" }
+      },
+      "items": [
+        {
+          "id": 1,
+          "faIcon": "fa-solid fa-book-open",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": null,
+          "link": { "href": null, "tooltipString": null },
+          "locales": {
+            "en": {
+              "title": "Novel Enthusiast",
+              "text": "Immersing in captivating storybooks and web novels across genres."
+            },
+            "es": {
+              "title": "Aficionado a las Novelas",
+              "text": "Disfrutando de libros de historias y novelas web de diversos géneros."
+            },
+            "fr": {
+              "title": "Passionné de Romans",
+              "text": "Exploration de livres d'histoires et de romans web variés."
+            },
+            "ko": {
+              "title": "소설 애호가",
+              "text": "다양한 장르의 웹소설과 이야기책에 푹 빠져 있습니다."
+            }
+          }
+        },
+        {
+          "id": 2,
+          "faIcon": "fa-solid fa-chess",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": null,
+          "link": { "href": null, "tooltipString": null },
+          "locales": {
+            "en": {
+              "title": "Chess",
+              "text": "Enjoying strategic gameplay and improving my tactics."
+            },
+            "es": {
+              "title": "Ajedrez",
+              "text": "Disfrutando del juego estratégico y mejorando mis tácticas."
+            },
+            "fr": {
+              "title": "Échecs",
+              "text": "J'apprécie le jeu stratégique et améliore mes tactiques."
+            },
+            "ko": {
+              "title": "체스",
+              "text": "전략적인 게임플레이를 즐기고 전술을 향상시키기."
+            }
+          }
+        },
+        {
+          "id": 3,
+          "faIcon": "fa-solid fa-paintbrush",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": null,
+          "link": { "href": null, "tooltipString": null },
+          "locales": {
+            "en": {
+              "title": "Doodling & Painting",
+              "text": "Exploring creativity through sketches and watercolors."
+            },
+            "es": {
+              "title": "Garabatos y Pintura",
+              "text": "Explorando la creatividad con bocetos y acuarelas."
+            },
+            "fr": {
+              "title": "Dessin & Peinture",
+              "text": "Exprimer ma créativité grâce aux croquis et aquarelles."
+            },
+            "ko": {
+              "title": "낙서 및 그림",
+              "text": "스케치와 수채화로 창의력 탐구하기."
+            }
+          }
+        },
+        {
+          "id": 4,
+          "faIcon": "fa-solid fa-feather-pointed",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": null,
+          "link": { "href": null, "tooltipString": null },
+          "locales": {
+            "en": {
+              "title": "Amateur Storyteller",
+              "text": "Weaving tales for the love of narrative craft."
+            },
+            "es": {
+              "title": "Narrador Aficionado",
+              "text": "Tejiendo historias por amor al arte narrativo."
+            },
+            "fr": {
+              "title": "Conteur Amateur",
+              "text": "Tisser des histoires par passion pour l'art du récit."
+            },
+            "ko": {
+              "title": "아마추어 스토리텔러",
+              "text": "이야기의 기술을 사랑하는 창작자."
+            }
+          }
+        },
+        {
+          "id": 5,
+          "img": "",
+          "faIcon": "fa-solid fa-headphones",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": null,
+          "link": { "href": null, "tooltipString": null },
+          "locales": {
+            "en": {
+              "title": "Music Enthusiast",
+              "text": "Immersing in diverse genres and discovering new artists."
+            },
+            "es": {
+              "title": "Amante de la Música",
+              "text": "Disfrutando de diversos géneros y descubriendo nuevos artistas."
+            },
+            "fr": {
+              "title": "Passionné de Musique",
+              "text": "Exploration de genres variés et découverte de nouveaux artistes."
+            },
+            "ko": {
+              "title": "음악 애호가",
+              "text": "다양한 장르의 음악 감상과 새로운 아티스트 발견하기."
+            }
+          }
+        },
+        {
+          "id": 6,
+          "faIcon": "fa-solid fa-spa",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": null,
+          "link": { "href": null, "tooltipString": null },
+          "locales": {
+            "en": {
+              "title": "Yoga Practice",
+              "text": "Cultivating mindfulness and flexibility through daily asanas."
+            },
+            "es": {
+              "title": "Práctica de Yoga",
+              "text": "Cultivando conciencia y flexibilidad con asanas diarias."
+            },
+            "fr": {
+              "title": "Pratique du Yoga",
+              "text": "Développer la pleine conscience et la souplesse grâce aux asanas."
+            },
+            "ko": {
+              "title": "요가 수행",
+              "text": "매일의 아사나(자세)로 정신적 평정과 유연성 기르기."
+            }
+          }
+        }
+      ]
+    }
+  ]
 }

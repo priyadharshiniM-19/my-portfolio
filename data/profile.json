@@ -1,0 +1,47 @@
+{
+    "name": "Priyadharshini M",
+
+    "profilePictureUrl": "public/images/pictures/code-snippet.png",
+    "resumePdfUrl": "",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "Priyadharshini M",
+            "localized_name_stylized": " [[Priyadharshini {{M}}]]",
+            "status_message_available_for_freelance": "Available for freelance!",
+            "roles": [
+                "Frontend Developer",
+                "Database management"
+            ]
+        },
+        "es": {
+            "status_message_available_for_freelance": "¡Disponible para freelance!",
+            "roles": [
+                
+                "Desarrollador Frontend",
+                "Database"
+                
+            ]
+        },
+        "fr": {
+            "status_message_available_for_freelance": "Disponible pour freelance !",
+            "roles": [
+                "Développeur Frontend",
+                "database"
+            ]
+        },
+        "ko": {
+            "localized_name": "최민석",
+            "localized_name_stylized": "{{최}}민석",
+            "status_message_available_for_freelance": "프리랜스 가능합니다!",
+            "roles": [
+                "백엔드 개발자",
+                "database"
+            ]
+        }
+    }
+}
